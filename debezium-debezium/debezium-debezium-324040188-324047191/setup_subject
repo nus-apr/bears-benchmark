@@ -1,0 +1,33 @@
+#!/bin/bash
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+benchmark_name=$(echo $script_dir | rev | cut -d "/" -f 3 | rev)
+project_name=$(echo $script_dir | rev | cut -d "/" -f 2 | rev)
+bug_id=$(echo $script_dir | rev | cut -d "/" -f 1 | rev)
+dir_name=/experiment/$benchmark_name/$project_name/$bug_id
+current_dir=$PWD
+mkdir -p $dir_name
+cd $dir_name
+mkdir dev-patch
+
+project_url="https://github.com/bears-bugs/bears-benchmark/"
+branch_name="debezium-debezium-324040188-324047191"
+
+cd $dir_name
+
+if [ -d /bears-benchmark ]; then
+    cp -r /bears-benchmark ./src
+    cd src
+    git checkout $branch_name
+else
+    git clone --single-branch --branch $branch_name $project_url src
+    cd src
+fi
+
+cp bears.json /tmp/bears-${branch_name}.json
+
+git checkout $(git log --format=format:%H --grep='Changes in the tests')
+
+cp /tmp/bears-${branch_name}.json bears.json
+
+exit 0
+

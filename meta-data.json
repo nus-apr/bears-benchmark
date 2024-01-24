@@ -20,13 +20,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.Creator1476Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1569
+        "count_pos": 1569,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-176912167-190405643/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 2,
@@ -49,13 +54,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.TestMapDeserialization"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1570
+        "count_pos": 1570,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-190405643-195044059/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 3,
@@ -78,13 +88,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.struct.TestUnwrapped"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1680
+        "count_pos": 1680,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-190406891-190505536/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 4,
@@ -107,13 +122,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.InnerClassCreatorTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1571
+        "count_pos": 1571,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-195066764-195069327/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 5,
@@ -136,13 +156,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.CreatorWithObjectIdTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1571
+        "count_pos": 1571,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-195430379-198387397/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 6,
@@ -165,14 +190,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest",
             "com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 1686
+        "count_pos": 1686,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-195646489-195752461/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 7,
@@ -195,14 +225,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.EnumDeserializationTest",
             "com.fasterxml.jackson.databind.deser.EnumDefaultReadTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 1690
+        "count_pos": 1690,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-195752461-195777970/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 8,
@@ -225,13 +260,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.TestMapSerialization"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1693
+        "count_pos": 1693,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-203042777-203306015/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 9,
@@ -254,13 +294,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1695
+        "count_pos": 1695,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-203649003-204682356/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 10,
@@ -283,13 +328,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.TestEnumSerialization"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1705
+        "count_pos": 1705,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-215036598-215111320-with-workaround/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 11,
@@ -312,8 +362,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest",
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest",
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest",
@@ -321,7 +371,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 4,
-        "count_pos": 1708
+        "count_pos": 1708,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-215111320-215799347-with-workaround/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 12,
@@ -344,13 +399,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1573
+        "count_pos": 1573,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-221825856-221903238/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 13,
@@ -373,13 +433,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1574
+        "count_pos": 1574,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-223024976-223291136/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 14,
@@ -402,13 +467,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.BeanSerializerModifier1612Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1974
+        "count_pos": 1974,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-226276279-226639126/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 15,
@@ -431,13 +501,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.jsontype.TestTypeNames"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1975
+        "count_pos": 1975,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-226654766-226666085/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 16,
@@ -460,13 +535,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1976
+        "count_pos": 1976,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-226666085-226673064/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 17,
@@ -489,13 +569,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1720
+        "count_pos": 1720,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-228025083-228873360/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 18,
@@ -518,13 +603,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.filter.ProblemHandlerTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1721
+        "count_pos": 1721,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-233857275-234147085/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 19,
@@ -547,13 +637,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.DateSerializationTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1722
+        "count_pos": 1722,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-241044631-241063530/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 20,
@@ -576,14 +671,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.type.RecursiveTypeTest",
             "com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 1723
+        "count_pos": 1723,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-241063530-241065840/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 21,
@@ -606,13 +706,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.TestDateDeserialization"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1725
+        "count_pos": 1725,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-242268513-242687710/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 22,
@@ -635,13 +740,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.type.RecursiveType1658Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1736
+        "count_pos": 1736,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-243509258-243861380/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 23,
@@ -664,13 +774,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.KeySerializers1679Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1737
+        "count_pos": 1737,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-247621332-247674379/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 24,
@@ -693,13 +808,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1754
+        "count_pos": 1754,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-databind-318458719-318715551/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 25,
@@ -722,13 +842,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "spoon.test.template.TemplateTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1167
+        "count_pos": 1167,
+        "src": {
+            "root_abspath": "/experiment/INRIA-spoon/INRIA-spoon-277315604-277340707/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 26,
@@ -751,13 +876,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.GoSafeProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 222
+        "count_pos": 222,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-188473748-188474474/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 27,
@@ -780,13 +910,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.H02FrameDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 224
+        "count_pos": 224,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-190843415-191103948/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 28,
@@ -809,13 +944,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.events.IgnitionEventHandlerTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 225
+        "count_pos": 225,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-195128524-195455832/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 29,
@@ -838,13 +978,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gl200ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 226
+        "count_pos": 226,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-198464113-198488474/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 30,
@@ -867,13 +1012,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TeltonikaProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 229
+        "count_pos": 229,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-201008628-201013389/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 31,
@@ -896,15 +1046,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.AquilaProtocolDecoderTest",
             "org.traccar.protocol.MeitrackProtocolDecoderTest",
             "org.traccar.protocol.TotemProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 227
+        "count_pos": 227,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-207561899-207563891/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 32,
@@ -927,13 +1082,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.SuntechProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-212058933-212061222/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 33,
@@ -956,13 +1116,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TelicProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-216100740-216167822/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 34,
@@ -985,13 +1150,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TelicProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-216189551-216602583/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 35,
@@ -1014,13 +1184,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.StarLinkProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-216602583-216605267/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 36,
@@ -1043,13 +1218,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.CguardProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-219945896-220224837/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 37,
@@ -1072,13 +1252,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.SuntechProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-220525069-220735965/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 38,
@@ -1101,13 +1286,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-222468469-222479725/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 39,
@@ -1130,13 +1320,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Tlt2hProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-222528691-222667430/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 40,
@@ -1159,13 +1354,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.L100ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 232
+        "count_pos": 232,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-225874246-226678972/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 41,
@@ -1188,13 +1388,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Pt502ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 233
+        "count_pos": 233,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-228965242-229298433/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 42,
@@ -1217,13 +1422,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.StarLinkProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 236
+        "count_pos": 236,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-233864732-233868407/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 43,
@@ -1246,13 +1456,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.WatchProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 240
+        "count_pos": 240,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-237845618-237846623/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 44,
@@ -1275,13 +1490,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.SanavProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 241
+        "count_pos": 241,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-239191142-239340888/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 45,
@@ -1304,13 +1524,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gps103ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 242
+        "count_pos": 242,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-241384932-242095240/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 46,
@@ -1333,13 +1558,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.WondexProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 248
+        "count_pos": 248,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-243199408-243229436/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 47,
@@ -1362,13 +1592,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 250
+        "count_pos": 250,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-243640798-243870734/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 48,
@@ -1391,13 +1626,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.AplicomFrameDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 260
+        "count_pos": 260,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-248584369-248666173/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 49,
@@ -1420,8 +1660,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.AplicomProtocolDecoderTest",
             "org.traccar.protocol.HuaShengProtocolDecoderTest",
             "org.traccar.protocol.PiligrimProtocolDecoderTest",
@@ -1570,7 +1810,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 145,
-        "count_pos": 119
+        "count_pos": 119,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-255051210-255052458/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 50,
@@ -1593,13 +1838,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 266
+        "count_pos": 266,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-262940348-263330667/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 51,
@@ -1622,15 +1872,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.reports.ReportUtilsTest",
             "org.traccar.reports.ReportUtilsTest",
             "org.traccar.reports.ReportUtilsTest"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 269
+        "count_pos": 269,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-265439859-265542197/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 52,
@@ -1653,13 +1908,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.EskyProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 273
+        "count_pos": 273,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-267146704-267366528/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 53,
@@ -1682,13 +1942,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 273
+        "count_pos": 273,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-267371558-268530427/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 54,
@@ -1711,13 +1976,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gt06ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 273
+        "count_pos": 273,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-269449386-269490884/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 55,
@@ -1740,13 +2010,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.EelinkProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 274
+        "count_pos": 274,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-273118899-273136493/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 56,
@@ -1769,13 +2044,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 274
+        "count_pos": 274,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-273236004-273269445/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 57,
@@ -1798,13 +2078,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 275
+        "count_pos": 275,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-274558862-274871026/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 58,
@@ -1827,13 +2112,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 275
+        "count_pos": 275,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-275432141-275689407/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 59,
@@ -1856,13 +2146,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 275
+        "count_pos": 275,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-292295467-292405214/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 60,
@@ -1885,13 +2180,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 281
+        "count_pos": 281,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-301176898-301185806/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 61,
@@ -1914,13 +2214,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Jt600FrameDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 282
+        "count_pos": 282,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-305623200-305713931/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 62,
@@ -1943,13 +2248,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TmgProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 283
+        "count_pos": 283,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-307668730-307760931/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 63,
@@ -1972,13 +2282,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TmgFrameDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 283
+        "count_pos": 283,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-308288525-308872339/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 64,
@@ -2001,13 +2316,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.EelinkProtocolEncoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 283
+        "count_pos": 283,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-309459456-309718203/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 65,
@@ -2030,13 +2350,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.TotemFrameDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 295
+        "count_pos": 295,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-313257147-313260584/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 66,
@@ -2059,13 +2384,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.Gt06ProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 297
+        "count_pos": 297,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-316227226-316639485/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 67,
@@ -2088,13 +2418,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 298
+        "count_pos": 298,
+        "src": {
+            "root_abspath": "/experiment/traccar-traccar/traccar-traccar-322427143-322428590/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 68,
@@ -2117,15 +2452,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest",
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest",
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 80
+        "count_pos": 80,
+        "src": {
+            "root_abspath": "/experiment/2018swecapstone-h2ms/2018swecapstone-h2ms-356638992-356666847/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 69,
@@ -2148,14 +2488,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "edu.harvard.h2ms.domain.core.UserTest",
             "edu.harvard.h2ms.service.UserDetailsServiceTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 102
+        "count_pos": 102,
+        "src": {
+            "root_abspath": "/experiment/2018swecapstone-h2ms/2018swecapstone-h2ms-363210218-363627522/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 70,
@@ -2178,15 +2523,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.activiti.engine.test.bpmn.event.timer.BoundaryTimerNonInterruptingEventTest",
             "org.activiti.engine.test.bpmn.event.signal.SignalEventTest",
             "org.activiti.engine.test.bpmn.event.message.MessageBoundaryEventTest"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 1949
+        "count_pos": 1949,
+        "src": {
+            "root_abspath": "/experiment/Activiti-Activiti/Activiti-Activiti-357660134-359342518/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 71,
@@ -2209,13 +2559,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "edu.harvard.h2ms.controllers.PasswordControllerTests"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 111
+        "count_pos": 111,
+        "src": {
+            "root_abspath": "/experiment/2018swecapstone-h2ms/2018swecapstone-h2ms-369561147-369563262/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 72,
@@ -2238,13 +2593,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "dk.alexandra.fresco.tools.cointossing.TestCoinTossing"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 383
+        "count_pos": 383,
+        "src": {
+            "root_abspath": "/experiment/aicis-fresco/aicis-fresco-330883035-330923179/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 73,
@@ -2267,14 +2627,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "dk.alexandra.fresco.suite.spdz.TestSpdzBasicArithmetic3Parties",
             "dk.alexandra.fresco.suite.spdz.TestSpdzBasicArithmetic2Parties"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 753
+        "count_pos": 753,
+        "src": {
+            "root_abspath": "/experiment/aicis-fresco/aicis-fresco-363993941-363994940/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 74,
@@ -2297,13 +2662,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.alibaba.dubbo.rpc.cluster.router.condition.ConditionRouterTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1158
+        "count_pos": 1158,
+        "src": {
+            "root_abspath": "/experiment/apache-incubator/apache-incubator-dubbo-329355311-329773929/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 75,
@@ -2326,14 +2696,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.alibaba.com.caucho.hessian.io.LocaleSerializerTest",
             "com.alibaba.com.caucho.hessian.io.LocaleSerializerTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 31
+        "count_pos": 31,
+        "src": {
+            "root_abspath": "/experiment/apache-incubator/apache-incubator-dubbo-347256120-347634018/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 76,
@@ -2356,13 +2731,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 753
+        "count_pos": 753,
+        "src": {
+            "root_abspath": "/experiment/apache-incubator/apache-incubator-dubbo-370383941-370422750/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 77,
@@ -2385,8 +2765,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory",
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory",
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory",
@@ -2394,7 +2774,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 4,
-        "count_pos": 631
+        "count_pos": 631,
+        "src": {
+            "root_abspath": "/experiment/apache-incubator/apache-incubator-servicecomb-java-chassis-330826674-331080091/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 78,
@@ -2417,13 +2802,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.apache.servicecomb.config.TestConfigUtil"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 143
+        "count_pos": 143,
+        "src": {
+            "root_abspath": "/experiment/apache-incubator/apache-incubator-servicecomb-java-chassis-371353019-371886679/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 79,
@@ -2446,13 +2836,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.blazebit.persistence.testsuite.Issue519Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1787
+        "count_pos": 1787,
+        "src": {
+            "root_abspath": "/experiment/Blazebit-blaze/Blazebit-blaze-persistence-351937208-352045689/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 80,
@@ -2475,13 +2870,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "slash.navigation.csv.ExcelFormatTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 429
+        "count_pos": 429,
+        "src": {
+            "root_abspath": "/experiment/cpesch-RouteConverter/cpesch-RouteConverter-331125693-331749933/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 81,
@@ -2504,13 +2904,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 484
+        "count_pos": 484,
+        "src": {
+            "root_abspath": "/experiment/debezium-debezium/debezium-debezium-324021438-324040188/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 82,
@@ -2533,13 +2938,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.debezium.connector.mysql.MySqlDdlParserTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 477
+        "count_pos": 477,
+        "src": {
+            "root_abspath": "/experiment/debezium-debezium/debezium-debezium-324040188-324047191/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 83,
@@ -2562,13 +2972,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.debezium.connector.mysql.MySqlDdlParserTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 478
+        "count_pos": 478,
+        "src": {
+            "root_abspath": "/experiment/debezium-debezium/debezium-debezium-325431120-326310450/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 84,
@@ -2591,8 +3006,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest",
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest",
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest",
@@ -2600,7 +3015,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 4,
-        "count_pos": 496
+        "count_pos": 496,
+        "src": {
+            "root_abspath": "/experiment/debezium-debezium/debezium-debezium-356786658-357274631/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 85,
@@ -2623,13 +3043,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.enmasse.address.model.v1.address.AddressTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 17
+        "count_pos": 17,
+        "src": {
+            "root_abspath": "/experiment/EnMasseProject-enmasse/EnMasseProject-enmasse-344863667-344945686/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 86,
@@ -2652,14 +3077,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.enmasse.address.model.v1.address.SerializationTest",
             "io.enmasse.address.model.v1.address.SerializationTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 18
+        "count_pos": 18,
+        "src": {
+            "root_abspath": "/experiment/EnMasseProject-enmasse/EnMasseProject-enmasse-357424637-357457887/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 87,
@@ -2682,13 +3112,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.linkedin.pinot.core.data.manager.realtime.LLRealtimeSegmentDataManagerTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 620
+        "count_pos": 620,
+        "src": {
+            "root_abspath": "/experiment/linkedin-pinot/linkedin-pinot-342188288-342446553/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 88,
@@ -2711,13 +3146,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.springframework.cloud.gcp.storage.GoogleStorageTests"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 36
+        "count_pos": 36,
+        "src": {
+            "root_abspath": "/experiment/spring-cloud/spring-cloud-spring-cloud-gcp-330973656-330980388/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 89,
@@ -2740,13 +3180,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.springframework.cloud.gcp.data.spanner.core.SpannerTemplateTests"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 158
+        "count_pos": 158,
+        "src": {
+            "root_abspath": "/experiment/spring-cloud/spring-cloud-spring-cloud-gcp-353059531-353471273/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 90,
@@ -2769,8 +3214,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "hu.oe.nik.szfmv.automatedcar.sensors.UltrasonicSensorTest",
             "hu.oe.nik.szfmv.automatedcar.sensors.UltrasonicSensorTest",
             "hu.oe.nik.szfmv.detector.DetectorTest",
@@ -2779,7 +3224,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 5,
-        "count_pos": 85
+        "count_pos": 85,
+        "src": {
+            "root_abspath": "/experiment/SzFMV2018-Tavasz/SzFMV2018-Tavasz-AutomatedCar-367688128-367699437/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 91,
@@ -2802,13 +3252,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.NodesStatusTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 84
+        "count_pos": 84,
+        "src": {
+            "root_abspath": "/experiment/thelastpickle-cassandra/thelastpickle-cassandra-reaper-324455111-327555133/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 92,
@@ -2831,8 +3286,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.NodesStatusTest",
             "io.cassandrareaper.resources.view.NodesStatusTest",
             "io.cassandrareaper.resources.view.NodesStatusTest",
@@ -2842,7 +3297,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 6,
-        "count_pos": 104
+        "count_pos": 104,
+        "src": {
+            "root_abspath": "/experiment/thelastpickle-cassandra/thelastpickle-cassandra-reaper-364710673-365484062/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 93,
@@ -2865,14 +3325,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.RepairRunStatusTest",
             "io.cassandrareaper.resources.view.RepairRunStatusTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 112
+        "count_pos": 112,
+        "src": {
+            "root_abspath": "/experiment/thelastpickle-cassandra/thelastpickle-cassandra-reaper-365484062-365554427/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 94,
@@ -2895,13 +3360,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.gdssecurity.pmd.SanitizersTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 57
+        "count_pos": 57,
+        "src": {
+            "root_abspath": "/experiment/albfernandez-GDS/albfernandez-GDS-PMD-Security-Rules-451155169-455669767/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 95,
@@ -2924,13 +3394,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.jasig.cas.client.util.CommonUtilsTests"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 153
+        "count_pos": 153,
+        "src": {
+            "root_abspath": "/experiment/apereo-java/apereo-java-cas-client-408206584-439486928/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 96,
@@ -2953,13 +3428,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.amazonaws.encryptionsdk.model.DecryptionMaterialsRequestTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 5725
+        "count_pos": 5725,
+        "src": {
+            "root_abspath": "/experiment/aws-aws/aws-aws-encryption-sdk-java-441438164-441901187/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 97,
@@ -2982,13 +3462,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.zaxxer.hikari.pool.TestConnections"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 144
+        "count_pos": 144,
+        "src": {
+            "root_abspath": "/experiment/brettwooldridge-HikariCP/brettwooldridge-HikariCP-446097106-446106182/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 98,
@@ -3011,13 +3496,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.github.classgraph.issues.issue277.Issue227Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 115
+        "count_pos": 115,
+        "src": {
+            "root_abspath": "/experiment/classgraph-classgraph/classgraph-classgraph-448207270-449613955/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 99,
@@ -3040,8 +3530,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "slash.navigation.gpx.Gpx11ExtensionsTest",
             "slash.navigation.gpx.Gpx11ExtensionsTest",
             "slash.navigation.gpx.Gpx11ExtensionsTest",
@@ -3060,7 +3550,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 15,
-        "count_pos": 417
+        "count_pos": 417,
+        "src": {
+            "root_abspath": "/experiment/cpesch-RouteConverter/cpesch-RouteConverter-432166807-432169636/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 100,
@@ -3083,8 +3578,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "client.presenter.controller.util.ViewMessageFactoryTest",
             "client.presenter.controller.util.ViewMessageFactoryTest",
             "client.presenter.controller.util.ViewMessageFactoryTest",
@@ -3098,7 +3593,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 10,
-        "count_pos": 192
+        "count_pos": 192,
+        "src": {
+            "root_abspath": "/experiment/CSU-CS414/CSU-CS414-WareWolves-cs414-f18-001-WareWolves-452444119-454548119/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 101,
@@ -3121,14 +3621,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.github.example.holder.impl.LockHolderSpec",
             "com.github.example.holder.impl.LockHolderSpec"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 104
+        "count_pos": 104,
+        "src": {
+            "root_abspath": "/experiment/DmitriiSerikov-money/DmitriiSerikov-money-transfer-service-446104441-446106577/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 102,
@@ -3151,14 +3656,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.fasterxml.jackson.dataformat.cbor.filter.StreamingDecoratorsTest",
             "com.fasterxml.jackson.dataformat.cbor.filter.StreamingDecoratorsTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 99
+        "count_pos": 99,
+        "src": {
+            "root_abspath": "/experiment/FasterXML-jackson/FasterXML-jackson-dataformats-binary-461131167-461139756/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 103,
@@ -3181,13 +3691,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "hudson.plugins.ansicolor.AnsiColorBuildWrapperTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 52
+        "count_pos": 52,
+        "src": {
+            "root_abspath": "/experiment/jenkinsci-ansicolor/jenkinsci-ansicolor-plugin-440438437-449394834/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 104,
@@ -3210,13 +3725,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.jgrapht.generate.WattsStrogatzGraphGeneratorTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 2972
+        "count_pos": 2972,
+        "src": {
+            "root_abspath": "/experiment/jgrapht-jgrapht/jgrapht-jgrapht-443997242-444189432/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 105,
@@ -3239,15 +3759,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.lettuce.core.dynamic.output.OutputRegistryCommandOutputFactoryResolverUnitTests",
             "io.lettuce.core.dynamic.DeclaredCommandMethodUnitTests",
             "io.lettuce.core.dynamic.ReactiveCommandSegmentCommandFactoryUnitTests"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 2013
+        "count_pos": 2013,
+        "src": {
+            "root_abspath": "/experiment/lettuce-io/lettuce-io-lettuce-core-438538449-438808943/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 106,
@@ -3270,13 +3795,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.milaboratory.core.alignment.kaligner2.KAligner2Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 425
+        "count_pos": 425,
+        "src": {
+            "root_abspath": "/experiment/milaboratory-milib/milaboratory-milib-444855015-444858326/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 107,
@@ -3299,14 +3829,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "feign.querymap.FieldQueryMapEncoderTest",
             "feign.querymap.FieldQueryMapEncoderTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 286
+        "count_pos": 286,
+        "src": {
+            "root_abspath": "/experiment/OpenFeign-feign/OpenFeign-feign-454179734-454278346/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 108,
@@ -3329,14 +3864,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.openmrs.module.htmlformentry.RegressionTest",
             "org.openmrs.module.htmlformentry.RegressionTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 533
+        "count_pos": 533,
+        "src": {
+            "root_abspath": "/experiment/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 109,
@@ -3359,13 +3899,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.openmrs.module.webservices.rest.web.v1_0.controller.openmrs1_9.ObsController1_9Test"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 1167
+        "count_pos": 1167,
+        "src": {
+            "root_abspath": "/experiment/openmrs-openmrs/openmrs-openmrs-module-webservices.rest-455565885-458312291/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 110,
@@ -3388,13 +3933,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "io.opentracing.contrib.p6spy.JdbcTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 18
+        "count_pos": 18,
+        "src": {
+            "root_abspath": "/experiment/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 111,
@@ -3417,15 +3967,20 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.paritytrading.foundation.ByteArraysTest",
             "com.paritytrading.foundation.ByteArraysTest",
             "com.paritytrading.foundation.ByteArraysTest"
         ],
         "test_timeout": 5,
         "count_neg": 3,
-        "count_pos": 77
+        "count_pos": 77,
+        "src": {
+            "root_abspath": "/experiment/paritytrading-foundation/paritytrading-foundation-364820616-448899327/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 112,
@@ -3448,13 +4003,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.cash.count.service.impl.TransferServiceTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 14
+        "count_pos": 14,
+        "src": {
+            "root_abspath": "/experiment/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 113,
@@ -3477,13 +4037,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.cash.count.service.impl.AccountManagerTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 16
+        "count_pos": 16,
+        "src": {
+            "root_abspath": "/experiment/rafonsecad-cash/rafonsecad-cash-count-435958219-435967865/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 114,
@@ -3506,14 +4071,19 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.json.ignore.JsonIgnoreFieldsTest",
             "com.json.ignore.JsonIgnoreFieldsTest"
         ],
         "test_timeout": 5,
         "count_neg": 2,
-        "count_pos": 7
+        "count_pos": 7,
+        "src": {
+            "root_abspath": "/experiment/rkonovalov-jsonignore/rkonovalov-jsonignore-442009574-442015798/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 115,
@@ -3536,8 +4106,8 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest",
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest",
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest",
@@ -3545,7 +4115,12 @@
         ],
         "test_timeout": 5,
         "count_neg": 4,
-        "count_pos": 41
+        "count_pos": 41,
+        "src": {
+            "root_abspath": "/experiment/societe-generale/societe-generale-ci-droid-tasks-consumer-420388707-430936160/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 116,
@@ -3568,13 +4143,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "org.sonar.cxx.checks.naming.MethodNameCheckTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 615
+        "count_pos": 615,
+        "src": {
+            "root_abspath": "/experiment/SonarOpenCommunity-sonar/SonarOpenCommunity-sonar-cxx-437974912-438070185/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 117,
@@ -3597,13 +4177,18 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.squareup.javapoet.ParameterSpecTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 333
+        "count_pos": 333,
+        "src": {
+            "root_abspath": "/experiment/square-javapoet/square-javapoet-418963407-436938143/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     },
     {
         "id": 118,
@@ -3626,12 +4211,17 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
-        "passing_test": [],
-        "failing_test": [
+        "passing_test_identifiers": [],
+        "failing_test_identifiers": [
             "com.wrapper.spotify.requests.data.player.StartResumeUsersPlaybackRequestTest"
         ],
         "test_timeout": 5,
         "count_neg": 1,
-        "count_pos": 228
+        "count_pos": 228,
+        "src": {
+            "root_abspath": "/experiment/thelinmichael-spotify/thelinmichael-spotify-web-api-java-441742384-442933713/src",
+            "entrypoint": {}
+        },
+        "output_dir_abspath": "/output"
     }
 ]

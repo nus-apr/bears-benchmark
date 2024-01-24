@@ -50,8 +50,8 @@ for project in original_data:
             "java_version": 8,
             "line_numbers": [],
             "dependencies": [],
-            "passing_test": [],
-            "failing_test": list(
+            "passing_test_identifiers": [],
+            "failing_test_identifiers": list(
                 map(
                     lambda failure: failure["testClass"],
                     metadata["tests"]["failureDetails"],

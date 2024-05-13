@@ -6,4 +6,22 @@ bug_id=$(echo $script_dir | rev | cut -d "/" -f 1 | rev)
 dir_name=/experiment/$benchmark_name/$project_name/$bug_id
 cd $dir_name/src
 
+
+filename="$dir_name/src/src/main/java/client/presenter/controller/messages/LoginResponseMessage.java"  
+sed -i '27i \\' $filename
+
+
+filename="$dir_name/src/src/main/java/client/presenter/controller/messages/MenuMessageResponse.java"  
+sed -i '28i \\' $filename
+
+filename="$dir_name/src/src/main/java/client/presenter/controller/messages/RegisterResponseMessage.java"  
+sed -i '27i \\' $filename
+
+
+filename="$dir_name/src/src/main/java/client/presenter/controller/messages/UnregisterResponseMessage.java"  
+sed -i '27i \\' $filename
+
+filename="$dir_name/src/src/main/java/client/presenter/controller/messages/ViewValidMovesResponse.java"  
+sed -i '20i \\' $filename
+
 python3 /bears-benchmark/scripts/compile_bug.py --bugId src --workspace $dir_name

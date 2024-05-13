@@ -1,0 +1,11 @@
+FROM rshariffdeen/arja
+ADD . /setup/bears/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545/
+RUN  bash -c 'groupadd -g 1011 cerberus' 
+RUN  bash -c "cut -d: -f1 /etc/passwd | xargs -i usermod -g cerberus {} "
+COPY --from=bears-opentracing-contrib-opentracing-contrib-java-p6spy-390188323-431527545  /experiment /experiment
+COPY --from=bears-opentracing-contrib-opentracing-contrib-java-p6spy-390188323-431527545  /logs /logs
+COPY --from=bears-opentracing-contrib-opentracing-contrib-java-p6spy-390188323-431527545  /root/ /root/
+RUN mvn clean compile test -Drat.skip=true -f /experiment/bears/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545//src/./pom.xml; return 0
+RUN  bash /setup/bears/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545/deps.sh 
+RUN  bash /setup/bears/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545/install_deps 
+ENTRYPOINT ["/bin/sh"]

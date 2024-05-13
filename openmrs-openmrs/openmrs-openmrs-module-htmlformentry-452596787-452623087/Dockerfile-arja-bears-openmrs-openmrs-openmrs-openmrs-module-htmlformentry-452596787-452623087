@@ -1,0 +1,11 @@
+FROM rshariffdeen/arja
+ADD . /setup/bears/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087/
+RUN  bash -c 'groupadd -g 1011 cerberus' 
+RUN  bash -c "cut -d: -f1 /etc/passwd | xargs -i usermod -g cerberus {} "
+COPY --from=bears-openmrs-openmrs-openmrs-openmrs-module-htmlformentry-452596787-452623087  /experiment /experiment
+COPY --from=bears-openmrs-openmrs-openmrs-openmrs-module-htmlformentry-452596787-452623087  /logs /logs
+COPY --from=bears-openmrs-openmrs-openmrs-openmrs-module-htmlformentry-452596787-452623087  /root/ /root/
+RUN mvn clean compile test -Drat.skip=true -f /experiment/bears/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087//src/./pom.xml; return 0
+RUN  bash /setup/bears/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087/deps.sh 
+RUN  bash /setup/bears/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087/install_deps 
+ENTRYPOINT ["/bin/sh"]

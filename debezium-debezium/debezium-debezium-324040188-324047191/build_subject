@@ -6,4 +6,8 @@ bug_id=$(echo $script_dir | rev | cut -d "/" -f 1 | rev)
 dir_name=/experiment/$benchmark_name/$project_name/$bug_id
 cd $dir_name/src
 
+
+filename="$dir_name/src/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlDdlParser.java"  
+sed -i '1228i \\' $filename
+
 python3 /bears-benchmark/scripts/compile_bug.py --bugId src --workspace $dir_name

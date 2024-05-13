@@ -6,6 +6,7 @@
         "bug_commit": "002a9a3e9b98ebebf53e43aed0536d3c50851c84",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-176912167-190405643",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -20,13 +21,31 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1569,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.Creator1476Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1569,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+                "line_numbers": [
+                    165,
+                    166,
+                    168,
+                    169,
+                    176,
+                    296,
+                    308,
+                    330
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.impl$CreatorCollector#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-176912167-190405643/src",
             "entrypoint": {}
@@ -40,6 +59,7 @@
         "bug_commit": "d44600d3750e5dba9fac68aee7248ed2a80a2225",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-190405643-195044059",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -54,13 +74,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1570,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.TestMapDeserialization"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1570,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java",
+                "line_numbers": [
+                    75
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.std$StdKeyDeserializer$75#forType(Class<?>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-190405643-195044059/src",
             "entrypoint": {}
@@ -74,6 +105,7 @@
         "bug_commit": "7fe2d4f1aaab61e41f31f792f8a988157a34b34c",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-190406891-190505536",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -88,13 +120,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1680,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.struct.TestUnwrapped"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1680,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+                "line_numbers": [
+                    437
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.impl$BeanPropertyMap#remove(com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-190406891-190505536/src",
             "entrypoint": {}
@@ -108,6 +151,7 @@
         "bug_commit": "d3874ebf3c0585270f1fe33eb7030667bacb63b7",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-195066764-195069327",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -122,13 +166,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1571,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.InnerClassCreatorTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1571,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java",
+                "line_numbers": [
+                    86,
+                    88
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.impl$InnerClassProperty#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-195066764-195069327/src",
             "entrypoint": {}
@@ -142,6 +198,7 @@
         "bug_commit": "16d77253d2ba0ed293a12013e459d56420a7d056",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-195430379-198387397",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -156,13 +213,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1571,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.creators.CreatorWithObjectIdTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1571,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+                "line_numbers": [
+                    409,
+                    410,
+                    411
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser$BeanDeserializer#_deserializeUsingPropertyBased(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-195430379-198387397/src",
             "entrypoint": {}
@@ -176,6 +246,7 @@
         "bug_commit": "2bb770bcd4cbc0c0c3ede86cedd4a602e328e2f6",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-195646489-195752461",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -190,14 +261,34 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 1686,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest",
             "com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 1686,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java",
+                "line_numbers": [
+                    730
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.introspect$POJOPropertiesCollector#_removeUnwantedAccessor(java.util.Map<String, POJOPropertyBuilder>)"
+            },
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+                "line_numbers": [
+                    644,
+                    682
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.introspect$POJOPropertyBuilder#removeNonVisible(boolean)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-195646489-195752461/src",
             "entrypoint": {}
@@ -211,6 +302,7 @@
         "bug_commit": "4d34006e4d8a566c6c64a3a0e04c17e50d63bb82",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-195752461-195777970",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -225,14 +317,30 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 1690,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.EnumDeserializationTest",
             "com.fasterxml.jackson.databind.deser.EnumDefaultReadTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 1690,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/std/EnumDeserializer.java",
+                "line_numbers": [
+                    170,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.std$EnumDeserializer#_deserializeAltString(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-195752461-195777970/src",
             "entrypoint": {}
@@ -246,6 +354,7 @@
         "bug_commit": "dc02ceac1c3d0939ddf8692f62be52da0e1a242b",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-203042777-203306015",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -260,13 +369,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1693,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.TestMapSerialization"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1693,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/ser/std/MapSerializer.java",
+                "line_numbers": [
+                    955
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.ser.std$MapSerializer#_orderEntries(java.util.Map<?,?>,fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-203042777-203306015/src",
             "entrypoint": {}
@@ -280,6 +400,7 @@
         "bug_commit": "ce37efcefbfab0fa91562a492f0f80af018a5313",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-203649003-204682356",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -294,13 +415,33 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1695,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1695,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java",
+                "line_numbers": [
+                    156
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.jsontype.impl$AsPropertyTypeDeserializer$156#_deserializeTypedUsingDefaultImpl(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.Deserialization)"
+            },
+            {
+                "source_file": "src/test/java/com/fasterxml/jackson/databind/jsontype/TestPolymorphicWithDefaultImpl.java",
+                "line_numbers": [
+                    131,
+                    249
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.jsontype$TestPolymorphicWithDefaultImpl#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-203649003-204682356/src",
             "entrypoint": {}
@@ -314,6 +455,7 @@
         "bug_commit": "d892303fa5cdcfd5278f6c2a2b1b008d720f7b15",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-215036598-215111320-with-workaround",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -328,13 +470,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1705,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.TestEnumSerialization"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1705,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java",
+                "line_numbers": [
+                    34,
+                    37,
+                    39
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.ser.std$StdKeySerializer#serialize(Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-215036598-215111320-with-workaround/src",
             "entrypoint": {}
@@ -348,6 +503,7 @@
         "bug_commit": "934f485d4c62854dd2ef48ed7ebb238f3abec0b7",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-215111320-215799347-with-workaround",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -362,6 +518,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 4,
+        "count_pos": 1708,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest",
@@ -369,9 +528,17 @@
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest",
             "com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 4,
-        "count_pos": 1708,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java",
+                "line_numbers": [
+                    584
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser$BuilderBasedDeserializer$584#deserializeUsingPropertyBasedWithUnwrapped(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-215111320-215799347-with-workaround/src",
             "entrypoint": {}
@@ -385,6 +552,7 @@
         "bug_commit": "28ec8a47d381311818f805ae76bf84da30f516f9",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-221825856-221903238",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -399,13 +567,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1573,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1573,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+                "line_numbers": [
+                    142
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser$BeanDeserializerFactory$142#createBeanDeserializer(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.BeanDescription)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-221825856-221903238/src",
             "entrypoint": {}
@@ -419,6 +598,7 @@
         "bug_commit": "8e98ed66bc262681a38052682ec5b6a42120f7f7",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-223024976-223291136",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -433,13 +613,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1574,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1574,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+                "line_numbers": [
+                    579,
+                    580,
+                    582
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.introspect$JacksonAnnotationIntrospector#findObjectReferenceInfo(com.fasterxml.jackson.databind.introspect.Annotated,com.fasterxml.jackson.databind.introspect.ObjectIdInfo)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-223024976-223291136/src",
             "entrypoint": {}
@@ -453,6 +646,7 @@
         "bug_commit": "b8b25e51327101cdb0d5b333cd7740a9684fea2e",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-226276279-226639126",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -467,13 +661,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1974,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.BeanSerializerModifier1612Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1974,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java",
+                "line_numbers": [
+                    523
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.ser$BeanSerializerFactory$523#constructBeanSerializer(com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.BeanDescription)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-226276279-226639126/src",
             "entrypoint": {}
@@ -487,6 +692,7 @@
         "bug_commit": "8c20a7670f71958c9af6c8daffab227d2d7ba87a",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-226654766-226666085",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -501,13 +707,31 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1975,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.jsontype.TestTypeNames"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1975,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java",
+                "line_numbers": [
+                    76,
+                    131,
+                    142,
+                    187,
+                    274,
+                    275,
+                    281,
+                    282
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.jsontype.impl$StdSubtypeResolver#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-226654766-226666085/src",
             "entrypoint": {}
@@ -521,6 +745,7 @@
         "bug_commit": "974ccddfd718a06f889da2dcd58ebb6bc22c8dca",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-226666085-226673064",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -535,13 +760,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1976,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1976,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java",
+                "line_numbers": [
+                    764,
+                    796,
+                    829,
+                    1116,
+                    1132,
+                    1148
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.introspect$JacksonAnnotationIntrospector#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-226666085-226673064/src",
             "entrypoint": {}
@@ -555,6 +796,7 @@
         "bug_commit": "f13cfb1f671af15814e2aa34e9f12cf00ab93b58",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-228025083-228873360",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -569,13 +811,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1720,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1720,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java",
+                "line_numbers": [
+                    495
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser$BeanDeserializerFactory#addBeanProps(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.deser.BeanDeserializerBuilder)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-228025083-228873360/src",
             "entrypoint": {}
@@ -589,6 +842,7 @@
         "bug_commit": "edaa4ad8204dfda985d3c74ffe542c9eb67a201d",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-233857275-234147085",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -603,13 +857,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1721,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.filter.ProblemHandlerTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1721,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+                "line_numbers": [
+                    115,
+                    116,
+                    117,
+                    280
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.deser.std$FromStringDeserializer#deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-233857275-234147085/src",
             "entrypoint": {}
@@ -623,6 +891,7 @@
         "bug_commit": "4b00ccc8ae9763c76e363621dc9ee4b8692d30dc",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-241044631-241063530",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -637,13 +906,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1722,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.DateSerializationTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1722,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java",
+                "line_numbers": [
+                    52
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.ser.std$DateTimeSerializerBase#createContextual(com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.BeanProperty)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-241044631-241063530/src",
             "entrypoint": {}
@@ -657,6 +937,7 @@
         "bug_commit": "93f7e14d096181a251aae3355464d24bcd7677a5",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-241063530-241065840",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -671,14 +952,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 1723,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.type.RecursiveTypeTest",
             "com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 1723,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+                "line_numbers": [
+                    28
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.type$ResolvedRecursiveType#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-241063530-241065840/src",
             "entrypoint": {}
@@ -692,6 +984,7 @@
         "bug_commit": "fe80e86551be38fccb1a983854925a78db6e845f",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-242268513-242687710",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -706,13 +999,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1725,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.deser.TestDateDeserialization"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1725,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/util/StdDateFormat.java",
+                "line_numbers": [
+                    521,
+                    522,
+                    529,
+                    530
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.util$StdDateFormat#parseAsISO8601(String,java.text.ParsePosition,boolean)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-242268513-242687710/src",
             "entrypoint": {}
@@ -726,6 +1033,7 @@
         "bug_commit": "dc2c00358822901b943019a9dbc0c912285998af",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-243509258-243861380",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -740,13 +1048,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1736,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.type.RecursiveType1658Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1736,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/type/ResolvedRecursiveType.java",
+                "line_numbers": [
+                    115,
+                    118,
+                    119
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.type$ResolvedRecursiveType#equals(Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-243509258-243861380/src",
             "entrypoint": {}
@@ -760,6 +1081,7 @@
         "bug_commit": "4009fe3a05caaf45ec230fbedc29dbe5d9b7f412",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-247621332-247674379",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -774,13 +1096,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1737,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.ser.KeySerializers1679Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1737,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java",
+                "line_numbers": [
+                    210
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.ser.std$StdKeySerializers#acceptJsonFormatVisitor(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper,com.fasterxml.jackson.databind.JavaType)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-247621332-247674379/src",
             "entrypoint": {}
@@ -794,6 +1127,7 @@
         "bug_commit": "bade4792d12bcf7242ada53c197a924332840864",
         "repository": "FasterXML/jackson-databind",
         "branch": "FasterXML-jackson-databind-318458719-318715551",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -808,13 +1142,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1754,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1754,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java",
+                "line_numbers": [
+                    73,
+                    87,
+                    88
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.databind.jsontype.impl$SubTypeValidator#validateSubType(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-databind-318458719-318715551/src",
             "entrypoint": {}
@@ -828,6 +1175,7 @@
         "bug_commit": "494ba6f46237e818ca2a751da8673e3a707b1df1",
         "repository": "INRIA/spoon",
         "branch": "INRIA-spoon-277315604-277340707",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -842,13 +1190,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1167,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "spoon.test.template.TemplateTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1167,
+        "localization": [
+            {
+                "source_file": "src/main/java/spoon/template/Substitution.java",
+                "line_numbers": [
+                    675,
+                    666
+                ],
+                "score": 1,
+                "function": "spoon.template$Substitution#checkTemplateContracts(spoon.reflect.declaration.CtClass<T>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/INRIA-spoon/INRIA-spoon-277315604-277340707/src",
             "entrypoint": {}
@@ -862,6 +1222,7 @@
         "bug_commit": "e512848dc07145664f3c5d0adff7a9f88b2f17b6",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-188473748-188474474",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -876,13 +1237,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 222,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.GoSafeProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 222,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/GoSafeProtocolDecoder.java",
+                "line_numbers": [
+                    159
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$GoSafeProtocolDecoder#decodePosition(org.traccar.DeviceSession,org.traccar.helper.Parser,java.util.Date)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-188473748-188474474/src",
             "entrypoint": {}
@@ -896,6 +1268,7 @@
         "bug_commit": "afa6bfcef49c7152b3292010f43075356b9c9727",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-190843415-191103948",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -910,13 +1283,33 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 224,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.H02FrameDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 224,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/H02FrameDecoder.java",
+                "line_numbers": [
+                    40,
+                    69
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$H02FrameDecoder#decode(io.netty.channel.ChannelHandlerContext,io.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer)"
+            },
+            {
+                "source_file": "src/org/traccar/protocol/H02ProtocolDecoder.java",
+                "line_numbers": [
+                    319
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$H02ProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-190843415-191103948/src",
             "entrypoint": {}
@@ -930,6 +1323,7 @@
         "bug_commit": "b1453ebd231009e9d9078377f2a1e063d852c444",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-195128524-195455832",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -944,13 +1338,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 225,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.events.IgnitionEventHandlerTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 225,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/events/IgnitionEventHandler.java",
+                "line_numbers": [
+                    41,
+                    46
+                ],
+                "score": 1,
+                "function": "org.traccar.events$IgnitionEventHandler#analyzePosition(org.traccar.model.Position)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-195128524-195455832/src",
             "entrypoint": {}
@@ -964,6 +1370,7 @@
         "bug_commit": "4e37ce80b615e126f82e567d06a60beff8c82fb0",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-198464113-198488474",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -978,13 +1385,33 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 226,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gl200ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 226,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gl200ProtocolDecoder.java",
+                "line_numbers": [
+                    240,
+                    241,
+                    242,
+                    243,
+                    244,
+                    622,
+                    623,
+                    624,
+                    625,
+                    626
+                ],
+                "score": 1,
+                "function": "org.tracccar.protocol$Gl200ProtocolDecoder#decodeWif(io.netty.channel.Channel,java.net.SocketAddress,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-198464113-198488474/src",
             "entrypoint": {}
@@ -998,6 +1425,7 @@
         "bug_commit": "582d431cd4a01bf2a6f826f32f2b93c17fd00a7b",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-201008628-201013389",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1012,13 +1440,30 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 229,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TeltonikaProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 229,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TeltonikaProtocolDecoder.java",
+                "line_numbers": [
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    98
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TeltonikaProtocolDecoder#decodeParameter(org.traccar.model.Position,int,org.jboss.netty.buffer.ChannelBuffer,int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-201008628-201013389/src",
             "entrypoint": {}
@@ -1032,6 +1477,7 @@
         "bug_commit": "b29929c4c8f78f665dd1614e43ee108c6eeeaa89",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-207561899-207563891",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1046,15 +1492,42 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 227,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.AquilaProtocolDecoderTest",
             "org.traccar.protocol.MeitrackProtocolDecoderTest",
             "org.traccar.protocol.TotemProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 227,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/AquilaProtocolDecoder.java",
+                "line_numbers": [
+                    135
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$AquilaProtocolDecoder$135#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            },
+            {
+                "source_file": "src/org/traccar/protocol/MeitrackProtocolDecoder.java",
+                "line_numbers": [
+                    127
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$MeitrackProtocolDecoder$127#decodeRegularMessage(io.netty.channel.Channel,java.net.SocketAddress,org.jboss.netty.buffer.ChannelBuffer)"
+            },
+            {
+                "source_file": "src/org/traccar/protocol/TotemProtocolDecoder.java",
+                "line_numbers": [
+                    293
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TotemProtocolDecoder$293#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-207561899-207563891/src",
             "entrypoint": {}
@@ -1068,6 +1541,7 @@
         "bug_commit": "8b46b34fb3e2c2635208f0cb427d45182c3fecc4",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-212058933-212061222",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1082,13 +1556,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.SuntechProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/SuntechProtocolDecoder.java",
+                "line_numbers": [
+                    34,
+                    146
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$SuntechProtocolDecoder#setProtocolType(int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-212058933-212061222/src",
             "entrypoint": {}
@@ -1102,6 +1588,7 @@
         "bug_commit": "b7d5d53ead8eb8f7dbe6e04cdee76ea2c05c1dbe",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-216100740-216167822",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1116,13 +1603,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TelicProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TelicProtocolDecoder.java",
+                "line_numbers": [
+                    57,
+                    86,
+                    133
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TelicProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-216100740-216167822/src",
             "entrypoint": {}
@@ -1136,6 +1636,7 @@
         "bug_commit": "d344bd8061dd15b0613a7f628decbd8bca3df095",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-216189551-216602583",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1150,13 +1651,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TelicProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TelicProtocolDecoder.java",
+                "line_numbers": [
+                    56,
+                    57,
+                    134,
+                    135,
+                    136,
+                    137
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TelicProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-216189551-216602583/src",
             "entrypoint": {}
@@ -1170,6 +1687,7 @@
         "bug_commit": "6461a7fad516e46250daca301305f36ba8bab8e6",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-216602583-216605267",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1184,13 +1702,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.StarLinkProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/StarLinkProtocolDecoder.java",
+                "line_numbers": [
+                    154,
+                    157
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$StarLinkProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-216602583-216605267/src",
             "entrypoint": {}
@@ -1204,6 +1734,7 @@
         "bug_commit": "e104f5636d53311dfd91cafaa2cdea65260ae7dc",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-219945896-220224837",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1218,13 +1749,30 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.CguardProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/CguardProtocolDecoder.java",
+                "line_numbers": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$CguardProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-219945896-220224837/src",
             "entrypoint": {}
@@ -1238,6 +1786,7 @@
         "bug_commit": "2f46d48846633fbf56289f478a9acbe544a17c9c",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-220525069-220735965",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1252,13 +1801,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.SuntechProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/SuntechProtocolDecoder.java",
+                "line_numbers": [
+                    70
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$SuntechProtocolDecoder#decode9(io.netty.channel.Channel,java.net.SocketAddress,String[])"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-220525069-220735965/src",
             "entrypoint": {}
@@ -1272,6 +1832,7 @@
         "bug_commit": "5c127eee77815eabc5c99ee45b2767a0e61553a9",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-222468469-222479725",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1286,13 +1847,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/H02ProtocolDecoder.java",
+                "line_numbers": [
+                    187
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$H02ProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-222468469-222479725/src",
             "entrypoint": {}
@@ -1306,6 +1878,7 @@
         "bug_commit": "e6975cd0c6d93dc205eac0c5470d3060269df87e",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-222528691-222667430",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1320,13 +1893,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Tlt2hProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Tlt2hProtocolDecoder.java",
+                "line_numbers": [
+                    48,
+                    94
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Tlt2hProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-222528691-222667430/src",
             "entrypoint": {}
@@ -1340,6 +1925,7 @@
         "bug_commit": "1f3185d8a06f5d8cd3c05c15cbb7abbbfa81af37",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-225874246-226678972",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1354,13 +1940,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 232,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.L100ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 232,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/L100ProtocolDecoder.java",
+                "line_numbers": [
+                    55,
+                    64,
+                    65,
+                    114
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$L100ProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-225874246-226678972/src",
             "entrypoint": {}
@@ -1374,6 +1974,7 @@
         "bug_commit": "841965ba439654f76dcd7fc63efd70647f23f29f",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-228965242-229298433",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1388,13 +1989,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 233,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Pt502ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 233,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Pt502ProtocolDecoder.java",
+                "line_numbers": [
+                    46,
+                    48
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Pt502ProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-228965242-229298433/src",
             "entrypoint": {}
@@ -1408,6 +2021,7 @@
         "bug_commit": "6b16c0ddf2ac1ce497e1d8bc17a47eceeabca113",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-233864732-233868407",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1422,13 +2036,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 236,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.StarLinkProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 236,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/StarLinkProtocolDecoder.java",
+                "line_numbers": [
+                    103,
+                    184
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$StarLinkProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-233864732-233868407/src",
             "entrypoint": {}
@@ -1442,6 +2068,7 @@
         "bug_commit": "62028d2d507f54ed50962bdb9dfb027baccb5e1c",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-237845618-237846623",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1456,13 +2083,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 240,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.WatchProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 240,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/WatchProtocolDecoder.java",
+                "line_numbers": [
+                    68,
+                    163,
+                    164
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$WatchProtocolDecoder#sendResponse(io.netty.channel.Channel,String,String,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-237845618-237846623/src",
             "entrypoint": {}
@@ -1476,6 +2116,7 @@
         "bug_commit": "40cb222dddfe3c0acdf6043617e00d7deaa4646c",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-239191142-239340888",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1490,13 +2131,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 241,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.SanavProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 241,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/SanavProtocolDecoder.java",
+                "line_numbers": [
+                    41,
+                    72
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$SanavProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-239191142-239340888/src",
             "entrypoint": {}
@@ -1510,6 +2163,7 @@
         "bug_commit": "2c82232375a16c1b3f5a62e2e5561d37a482dff9",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-241384932-242095240",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1524,13 +2178,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 242,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gps103ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 242,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gps103ProtocolDecoder.java",
+                "line_numbers": [
+                    93,
+                    96,
+                    212,
+                    214
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gps103ProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-241384932-242095240/src",
             "entrypoint": {}
@@ -1544,6 +2212,7 @@
         "bug_commit": "6c3d168ed9240ed4b5485b537294db6ec9d94379",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-243199408-243229436",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1558,13 +2227,35 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 248,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.WondexProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 248,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/FilterHandler.java",
+                "line_numbers": [
+                    87
+                ],
+                "score": 1,
+                "function": "org.traccar$FilterHandler#filterInvalid(org.traccar.model.Position)"
+            },
+            {
+                "source_file": "src/org/traccar/protocol/WondexProtocolDecoder.java",
+                "line_numbers": [
+                    81,
+                    109,
+                    110,
+                    111
+                ],
+                "score": 1,
+                "function": "org.traccar$FilterHandler#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-243199408-243229436/src",
             "entrypoint": {}
@@ -1578,6 +2269,7 @@
         "bug_commit": "9f4e34dd799187b32226652fdea9868c4ef5ddb4",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-243640798-243870734",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1592,13 +2284,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 250,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 250,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/H02ProtocolDecoder.java",
+                "line_numbers": [
+                    380
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$H02ProtocolDecoder#decode(io.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-243640798-243870734/src",
             "entrypoint": {}
@@ -1612,6 +2315,7 @@
         "bug_commit": "2cf20c46afe59f6e98e629a6c88e74d7ab60b122",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-248584369-248666173",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1626,13 +2330,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 260,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.AplicomFrameDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 260,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/AplicomFrameDecoder.java",
+                "line_numbers": [
+                    28
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$AplicomFrameDecoder#decode(io.netty.channel.ChannelHandlerContext,io.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-248584369-248666173/src",
             "entrypoint": {}
@@ -1646,6 +2361,7 @@
         "bug_commit": "df53571ab09afb15888462dbbed2c3d58759c55a",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-255051210-255052458",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1660,6 +2376,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 145,
+        "count_pos": 119,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.AplicomProtocolDecoderTest",
@@ -1808,9 +2527,17 @@
             "org.traccar.protocol.XirgoProtocolDecoderTest",
             "org.traccar.protocol.VtfmsProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 145,
-        "count_pos": 119,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/BaseProtocolDecoder.java",
+                "line_numbers": [
+                    109
+                ],
+                "score": 1,
+                "function": "org.traccar$BaseProtocolDecoder#getDeviceSession(io.netty.channel.Channel,java.net.SocketAddress,String...)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-255051210-255052458/src",
             "entrypoint": {}
@@ -1824,6 +2551,7 @@
         "bug_commit": "b82be4f9f3b4d1d6c345bc41d5c26aca03e369cb",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-262940348-263330667",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1838,13 +2566,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 266,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 266,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gl200TextProtocolDecoder.java",
+                "line_numbers": [
+                    79,
+                    392,
+                    393
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gl200TextProtocolDecoder#decodeInf(io.netty.channel.Channel,java.net.SocketAddress,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-262940348-263330667/src",
             "entrypoint": {}
@@ -1858,6 +2599,7 @@
         "bug_commit": "9e9f97ac34d882594e3d23e959775ce765447787",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-265439859-265542197",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1872,15 +2614,34 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 269,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.reports.ReportUtilsTest",
             "org.traccar.reports.ReportUtilsTest",
             "org.traccar.reports.ReportUtilsTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 269,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/reports/ReportUtils.java",
+                "line_numbers": [
+                    287,
+                    288,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297
+                ],
+                "score": 1,
+                "function": "org.traccar.reports$ReportUtilsdetectTripsAndStops(java.util.Collection<org.traccar.model.Position>,org.traccar.reports.model.TripsConfig,boolean,double,Class<T>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-265439859-265542197/src",
             "entrypoint": {}
@@ -1894,6 +2655,7 @@
         "bug_commit": "10e801928c521456fa54019d878093dc0538de8a",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-267146704-267366528",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1908,13 +2670,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 273,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.EskyProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 273,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/EskyProtocolDecoder.java",
+                "line_numbers": [
+                    43,
+                    44
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$EskyProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-267146704-267366528/src",
             "entrypoint": {}
@@ -1928,6 +2702,7 @@
         "bug_commit": "d5ad3af86c6faa5d45b8724219bf06cdd58e3eed",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-267371558-268530427",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1942,13 +2717,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 273,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 273,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gl200TextProtocolDecoder.java",
+                "line_numbers": [
+                    617
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gl200TextProtocolDecoder#decodeEri(io.netty.channel.Channel,java.net.SocketAddress,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-267371558-268530427/src",
             "entrypoint": {}
@@ -1962,6 +2748,7 @@
         "bug_commit": "6285adfbc85ada862b4d2d3f8a0621a2f32cb29f",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-269449386-269490884",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -1976,13 +2763,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 273,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gt06ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 273,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gt06ProtocolDecoder.java",
+                "line_numbers": [
+                    185,
+                    205,
+                    465,
+                    576
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gt06ProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-269449386-269490884/src",
             "entrypoint": {}
@@ -1996,6 +2797,7 @@
         "bug_commit": "5e481bfc1596de062093c5bc01cf168ed906aafc",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-273118899-273136493",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2010,13 +2812,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 274,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.EelinkProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 274,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/EelinkProtocolDecoder.java",
+                "line_numbers": [
+                    163
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$EelinkProtocolDecoder#decodeOld(org.traccar.DeviceSession,org.jboss.netty.buffer.ChannelBuffer,int,int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-273118899-273136493/src",
             "entrypoint": {}
@@ -2030,6 +2843,7 @@
         "bug_commit": "2721bf4adc12eeacf19c00af30e266ae65e6a4a9",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-273236004-273269445",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2044,13 +2858,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 274,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.H02ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 274,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/H02ProtocolDecoder.java",
+                "line_numbers": [
+                    155,
+                    167
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$H02ProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-273236004-273269445/src",
             "entrypoint": {}
@@ -2064,6 +2890,7 @@
         "bug_commit": "195e7b5b45c08fa4fad4f9c8797f8807ded1dbea",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-274558862-274871026",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2078,13 +2905,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 275,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 275,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gl200TextProtocolDecoder.java",
+                "line_numbers": [
+                    68
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gl200TextProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-274558862-274871026/src",
             "entrypoint": {}
@@ -2098,6 +2936,7 @@
         "bug_commit": "1e7d036f1f076f380dca358432bb4ab2b7be255f",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-275432141-275689407",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2112,13 +2951,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 275,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 275,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/MeitrackProtocolDecoder.java",
+                "line_numbers": [
+                    72
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$MeitrackProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-275432141-275689407/src",
             "entrypoint": {}
@@ -2132,6 +2982,7 @@
         "bug_commit": "bf42fd74dc38459ffafcf4a329634504efc90d40",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-292295467-292405214",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2146,13 +2997,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 275,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 275,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/MeitrackProtocolDecoder.java",
+                "line_numbers": [
+                    222,
+                    224,
+                    227,
+                    228
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$MeitrackProtocolDecoder#decodeRegularMessage(org.jboss.netty.channel.Channel,java.net.SocketAddress,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-292295467-292405214/src",
             "entrypoint": {}
@@ -2166,6 +3031,7 @@
         "bug_commit": "395ed2c3845d20b0dbb25e39806dfdd37c2ec0d3",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-301176898-301185806",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2180,13 +3046,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 281,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gl200TextProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 281,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gl200TextProtocolDecoder.java",
+                "line_numbers": [
+                    219
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gl200TextProtocolDecoder#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-301176898-301185806/src",
             "entrypoint": {}
@@ -2200,6 +3077,7 @@
         "bug_commit": "43ffaf8c3bb0c4937f8d9185f47a95530d118931",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-305623200-305713931",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2214,13 +3092,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 282,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Jt600FrameDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 282,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Jt600FrameDecoder.java",
+                "line_numbers": [
+                    40
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Jt600FrameDecoder#decode(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-305623200-305713931/src",
             "entrypoint": {}
@@ -2234,6 +3123,7 @@
         "bug_commit": "cef10080c6012f42823d616b55c6b24215cd9253",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-307668730-307760931",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2248,13 +3138,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 283,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TmgProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 283,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TmgProtocolDecoder.java",
+                "line_numbers": [
+                    73,
+                    169,
+                    173
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TmgProtocolDecoder#decode(org.jboss.netty.channel.Channel,java.net.SocketAddress,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-307668730-307760931/src",
             "entrypoint": {}
@@ -2268,6 +3171,7 @@
         "bug_commit": "0adacee61b3ddaacdbac7f47773e9dcbcf5b083c",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-308288525-308872339",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2282,13 +3186,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 283,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TmgFrameDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 283,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TmgFrameDecoder.java",
+                "line_numbers": [
+                    50,
+                    56
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TmgFrameDecoder#decode(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-308288525-308872339/src",
             "entrypoint": {}
@@ -2302,6 +3218,7 @@
         "bug_commit": "8e567d133c3d342cebd505c6d2effe6b2a41cb7b",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-309459456-309718203",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2316,13 +3233,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 283,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.EelinkProtocolEncoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 283,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/EelinkProtocolEncoder.java",
+                "line_numbers": [
+                    68
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$EelinkProtocolEncoder#encodeContent(boolean,String,int,int,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-309459456-309718203/src",
             "entrypoint": {}
@@ -2336,6 +3264,7 @@
         "bug_commit": "f839ca4c24d80dcd78b5ad1d65f10cdf534d94d8",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-313257147-313260584",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2350,13 +3279,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 295,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.TotemFrameDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 295,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/TotemFrameDecoder.java",
+                "line_numbers": [
+                    45,
+                    46
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$TotemFrameDecoder#decode(org.jboss.netty.channel.ChannelHandlerContext,org.jboss.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-313257147-313260584/src",
             "entrypoint": {}
@@ -2370,6 +3311,7 @@
         "bug_commit": "0c8bf8867456c55231f2aabf36970504d4e8cab7",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-316227226-316639485",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2384,13 +3326,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 297,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.Gt06ProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 297,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/Gt06ProtocolDecoder.java",
+                "line_numbers": [
+                    557,
+                    564
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$Gt06ProtocolDecoder#decodeBasicOther(org.jboss.netty.channel.Channel,org.jboss.netty.buffer.ChannelBuffer,org.traccar.DeviceSession,int,int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-316227226-316639485/src",
             "entrypoint": {}
@@ -2404,6 +3358,7 @@
         "bug_commit": "6e0be9857bc26c59936d4446ef15488bd90f5150",
         "repository": "traccar/traccar",
         "branch": "traccar-traccar-322427143-322428590",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2418,13 +3373,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 298,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.traccar.protocol.MeitrackProtocolDecoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 298,
+        "localization": [
+            {
+                "source_file": "src/org/traccar/protocol/MeitrackProtocolDecoder.java",
+                "line_numbers": [
+                    262
+                ],
+                "score": 1,
+                "function": "org.traccar.protocol$MeitrackProtocolDecoder#decodeDataFields(org.traccar.model.Position,int,String[])"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/traccar-traccar/traccar-traccar-322427143-322428590/src",
             "entrypoint": {}
@@ -2438,6 +3404,7 @@
         "bug_commit": "fb8ebc2c2ecc8aba60da852a48e076ff1312c9eb",
         "repository": "2018swecapstone/h2ms",
         "branch": "2018swecapstone-h2ms-356638992-356666847",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2452,15 +3419,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 80,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest",
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest",
             "edu.harvard.h2ms.web.init.H2msRestUtilsTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 80,
+        "localization": [
+            {
+                "source_file": "src/main/java/edu/harvard/h2ms/service/utils/H2msRestUtils.java",
+                "line_numbers": [
+                    52,
+                    78,
+                    84,
+                    107
+                ],
+                "score": 1,
+                "function": "edu.harvard.h2ms.service.utils$H2msRestUtils#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/2018swecapstone-h2ms/2018swecapstone-h2ms-356638992-356666847/src",
             "entrypoint": {}
@@ -2474,6 +3455,7 @@
         "bug_commit": "f5e7c88086227b56f4eee5c7e456fd1acc1a4f95",
         "repository": "2018swecapstone/h2ms",
         "branch": "2018swecapstone-h2ms-363210218-363627522",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2488,14 +3470,34 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 102,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "edu.harvard.h2ms.domain.core.UserTest",
             "edu.harvard.h2ms.service.UserDetailsServiceTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 102,
+        "localization": [
+            {
+                "source_file": "src/main/java/edu/harvard/h2ms/domain/core/User.java",
+                "line_numbers": [
+                    97,
+                    150
+                ],
+                "score": 1,
+                "function": "edu.harvard.h2ms.domain.core$User#setEmail(String)"
+            },
+            {
+                "source_file": "src/main/java/edu/harvard/h2ms/service/UserDetailsServiceImpl.java",
+                "line_numbers": [
+                    19
+                ],
+                "score": 1,
+                "function": "edu.harvard.h2ms.service.core$UserDetailsServiceImpl#loadUserByUsername(String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/2018swecapstone-h2ms/2018swecapstone-h2ms-363210218-363627522/src",
             "entrypoint": {}
@@ -2509,6 +3511,7 @@
         "bug_commit": "8ddd177b8f70f6e25af810096aa43aaf87d28af2",
         "repository": "Activiti/Activiti",
         "branch": "Activiti-Activiti-357660134-359342518",
+        "failing_module": "modules/activiti-engine",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2523,15 +3526,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 1949,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.activiti.engine.test.bpmn.event.timer.BoundaryTimerNonInterruptingEventTest",
             "org.activiti.engine.test.bpmn.event.signal.SignalEventTest",
             "org.activiti.engine.test.bpmn.event.message.MessageBoundaryEventTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 1949,
+        "localization": [
+            {
+                "source_file": "modules/activiti-engine/src/main/java/org/activiti/engine/impl/history/handler/ActivityInstanceEndHandler.java",
+                "line_numbers": [
+                    26,
+                    27
+                ],
+                "score": 1,
+                "function": "org.activiti.engine.impl.history.handler$ActivityInstanceEndHandler#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/Activiti-Activiti/Activiti-Activiti-357660134-359342518/src",
             "entrypoint": {}
@@ -2545,6 +3560,7 @@
         "bug_commit": "af499c715d6c5039470372e7316866d16ad752ad",
         "repository": "2018swecapstone/h2ms",
         "branch": "2018swecapstone-h2ms-369561147-369563262",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2559,13 +3575,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 111,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "edu.harvard.h2ms.controllers.PasswordControllerTests"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 111,
+        "localization": [
+            {
+                "source_file": "src/main/java/edu/harvard/h2ms/service/NotificationServiceImpl.java",
+                "line_numbers": [
+                    68,
+                    70,
+                    71,
+                    74
+                ],
+                "score": 1,
+                "function": "edu.harvard.h2ms.service$NotificationServiceImpl#notifyUsers(edu.harvard.h2ms.domain.core.Notification)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/2018swecapstone-h2ms/2018swecapstone-h2ms-369561147-369563262/src",
             "entrypoint": {}
@@ -2579,6 +3609,7 @@
         "bug_commit": "cb5ed623b9d9af706ffaf30f2f17163832f0836e",
         "repository": "aicis/fresco",
         "branch": "aicis-fresco-330883035-330923179",
+        "failing_module": "tools/ot",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2593,13 +3624,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 383,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "dk.alexandra.fresco.tools.cointossing.TestCoinTossing"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 383,
+        "localization": [
+            {
+                "source_file": "core/src/main/java/dk/alexandra/fresco/framework/util/StrictBitVector.java",
+                "line_numbers": [
+                    117
+                ],
+                "score": 1,
+                "function": "dk.alexandra.fresco.framework.util$StrictBitVector#toByteArray()"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/aicis-fresco/aicis-fresco-330883035-330923179/src",
             "entrypoint": {}
@@ -2613,6 +3655,7 @@
         "bug_commit": "88b105ae0b512a28c957b5478b57021efaa6f4d0",
         "repository": "aicis/fresco",
         "branch": "aicis-fresco-363993941-363994940",
+        "failing_module": "suite/spdz",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2627,14 +3670,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 753,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "dk.alexandra.fresco.suite.spdz.TestSpdzBasicArithmetic3Parties",
             "dk.alexandra.fresco.suite.spdz.TestSpdzBasicArithmetic2Parties"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 753,
+        "localization": [
+            {
+                "source_file": "suite/spdz/src/main/java/dk/alexandra/fresco/suite/spdz/storage/SpdzMascotDataSupplier.java",
+                "line_numbers": [
+                    45,
+                    82,
+                    150,
+                    152,
+                    155
+                ],
+                "score": 1,
+                "function": "dk.alexandra.fresco.suite.spdz.storage$SpdzMascotDataSupplier#SpdzMascotDataSupplier(int,int,int,java.util.function.Supplier<dk.alexandra.fresco.framework.network.Network>,java.math.BigInteger,int,java.util.function.Function<Integer,dk.alexandra.fresco.suite.spdz.datatypes.SpdzInt[]>,int,int,dk.alexandra.fresco.tools.mascot.field.FieldElement,java.util.Map<Integer,dk.alexandra.fresco.tools.ot.otextension.RotList>,dk.alexandra.fresco.framework.util.Drbg)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/aicis-fresco/aicis-fresco-363993941-363994940/src",
             "entrypoint": {}
@@ -2648,6 +3706,7 @@
         "bug_commit": "b309f792f8b5ebfea16b4cc13720e35306d94b38",
         "repository": "apache/incubator-dubbo",
         "branch": "apache-incubator-dubbo-329355311-329773929",
+        "failing_module": "dubbo-cluster",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2662,13 +3721,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1158,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.alibaba.dubbo.rpc.cluster.router.condition.ConditionRouterTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1158,
+        "localization": [
+            {
+                "source_file": "dubbo-cluster/src/main/java/com/alibaba/dubbo/rpc/cluster/router/condition/ConditionRouter.java",
+                "line_numbers": [
+                    207
+                ],
+                "score": 1,
+                "function": "com.alibaba.dubbo.rpc.cluster.router.condition$ConditionRouter#matchCondition(java.util.Map<String, MatchPair>,com.alibaba.dubbo.common.URL,com.alibaba.dubbo.common.URL,com.alibaba.dubbo.rpc.Invocation)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apache-incubator/apache-incubator-dubbo-329355311-329773929/src",
             "entrypoint": {}
@@ -2682,6 +3752,7 @@
         "bug_commit": "3be23d9ac55407e2e2bda49570f7f76943a3b382",
         "repository": "apache/incubator-dubbo",
         "branch": "apache-incubator-dubbo-347256120-347634018",
+        "failing_module": "hessian-lite",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2696,14 +3767,38 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 31,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.alibaba.com.caucho.hessian.io.LocaleSerializerTest",
             "com.alibaba.com.caucho.hessian.io.LocaleSerializerTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 31,
+        "localization": [
+            {
+                "source_file": "hessian-lite/src/main/java/com/alibaba/com/caucho/hessian/io/LocaleHandle.java",
+                "line_numbers": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    64,
+                    65
+                ],
+                "score": 1,
+                "function": "com.alibaba.com.caucho.hessian.io$LocaleHandle#readResolve()"
+            },
+            {
+                "source_file": "hessian-lite/src/main/java/com/alibaba/com/caucho/hessian/io/LocaleSerializer.java",
+                "line_numbers": [
+                    71
+                ],
+                "score": 1,
+                "function": "com.alibaba.com.caucho.hessian.io$LocaleSerializer#writeObject(Object,com.alibaba.com.caucho.hessian.io.AbstractHessianOutput)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apache-incubator/apache-incubator-dubbo-347256120-347634018/src",
             "entrypoint": {}
@@ -2717,6 +3812,7 @@
         "bug_commit": "d07c64f809361ec629b738ca223c7e89d08c03f4",
         "repository": "apache/incubator-dubbo",
         "branch": "apache-incubator-dubbo-370383941-370422750",
+        "failing_module": "dubbo-rpc/dubbo-rpc-dubbo",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2731,13 +3827,41 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 753,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 753,
+        "localization": [
+            {
+                "source_file": "dubbo-config/dubbo-config-api/src/main/java/com/alibaba/dubbo/config/ProtocolConfig.java",
+                "line_numbers": [
+                    160,
+                    161
+                ],
+                "score": 1,
+                "function": "com.alibaba.dubbo.config$ProtocolConfig#destroyAll()"
+            },
+            {
+                "source_file": "dubbo-config/dubbo-config-spring/src/main/java/com/alibaba/dubbo/config/spring/AnnotationBean.java",
+                "line_numbers": [
+                    114
+                ],
+                "score": 1,
+                "function": "com.alibaba.dubbo.config.spring$AnnotationBean#destroy()"
+            },
+            {
+                "source_file": "dubbo-remoting/dubbo-remoting-api/src/main/java/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeServer.java",
+                "line_numbers": [
+                    88
+                ],
+                "score": 1,
+                "function": "com.alibaba.dubbo.remoting.exchange.support.header$HeaderExchangeServer#isRunning()"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apache-incubator/apache-incubator-dubbo-370383941-370422750/src",
             "entrypoint": {}
@@ -2751,6 +3875,7 @@
         "bug_commit": "462f2790bd24ce6cfd84e0c8862caff5db0a784a",
         "repository": "apache/incubator-servicecomb-java-chassis",
         "branch": "apache-incubator-servicecomb-java-chassis-330826674-331080091",
+        "failing_module": "service-registry",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2765,6 +3890,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 4,
+        "count_pos": 631,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory",
@@ -2772,9 +3900,17 @@
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory",
             "org.apache.servicecomb.serviceregistry.api.registry.TestMicroserviceFactory"
         ],
-        "test_timeout": 5,
-        "count_neg": 4,
-        "count_pos": 631,
+        "localization": [
+            {
+                "source_file": "service-registry/src/main/java/org/apache/servicecomb/serviceregistry/api/registry/MicroserviceFactory.java",
+                "line_numbers": [
+                    59
+                ],
+                "score": 1,
+                "function": "org.apache.servicecomb.serviceregistry.api.registry$MicroserviceFactory#createMicroserviceFromDefinition(org.apache.commons.configuration.Configuration)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apache-incubator/apache-incubator-servicecomb-java-chassis-330826674-331080091/src",
             "entrypoint": {}
@@ -2788,6 +3924,7 @@
         "bug_commit": "5348393b977f5e6a8eac87016dd1f969a7a1e6df",
         "repository": "apache/incubator-servicecomb-java-chassis",
         "branch": "apache-incubator-servicecomb-java-chassis-371353019-371886679",
+        "failing_module": "foundations/foundation-config",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2802,13 +3939,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 143,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.apache.servicecomb.config.TestConfigUtil"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 143,
+        "localization": [
+            {
+                "source_file": "foundations/foundation-config/src/main/java/org/apache/servicecomb/config/ConfigUtil.java",
+                "line_numbers": [
+                    133,
+                    134,
+                    135,
+                    136
+                ],
+                "score": 1,
+                "function": "org.apache.servicecomb.config$ConfigUtil#createLocalConfig(java.util.List<org.apache.servicecomb.config.archaius.sources.ConfigModel>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apache-incubator/apache-incubator-servicecomb-java-chassis-371353019-371886679/src",
             "entrypoint": {}
@@ -2822,6 +3973,7 @@
         "bug_commit": "70a7a962e7e2f90137f1ae2432aa8b2846de383a",
         "repository": "Blazebit/blaze-persistence",
         "branch": "Blazebit-blaze-persistence-351937208-352045689",
+        "failing_module": "core/testsuite",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2836,13 +3988,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1787,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.blazebit.persistence.testsuite.Issue519Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1787,
+        "localization": [
+            {
+                "source_file": "core/testsuite/src/test/hibernate/com/blazebit/persistence/testsuite/Issue519Test.java",
+                "line_numbers": [
+                    75
+                ],
+                "score": 1,
+                "function": "com.blazebit.persistence.testsuite$Issue519Test#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/Blazebit-blaze/Blazebit-blaze-persistence-351937208-352045689/src",
             "entrypoint": {}
@@ -2856,6 +4019,7 @@
         "bug_commit": "6776ddcd18f883f1f37810b50e824fcc70e534e6",
         "repository": "cpesch/RouteConverter",
         "branch": "cpesch-RouteConverter-331125693-331749933",
+        "failing_module": "navigation-formats",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2870,13 +4034,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 429,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "slash.navigation.csv.ExcelFormatTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 429,
+        "localization": [
+            {
+                "source_file": "navigation-formats/src/main/java/slash/navigation/csv/ExcelPosition.java",
+                "line_numbers": [
+                    46,
+                    108
+                ],
+                "score": 1,
+                "function": "slash.navigation.csv$ExcelPosition#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/cpesch-RouteConverter/cpesch-RouteConverter-331125693-331749933/src",
             "entrypoint": {}
@@ -2890,6 +4066,7 @@
         "bug_commit": "5f3902d2401460112728962d0f64718f33afc6a1",
         "repository": "debezium/debezium",
         "branch": "debezium-debezium-324021438-324040188",
+        "failing_module": "debezium-connector-postgres",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2904,13 +4081,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 484,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 484,
+        "localization": [
+            {
+                "source_file": "debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/DateTimeFormat.java",
+                "line_numbers": [
+                    46,
+                    47
+                ],
+                "score": 1,
+                "function": "io.debezium.connector.postgresql.connection.wal2json$DateTimeFormat#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/debezium-debezium/debezium-debezium-324021438-324040188/src",
             "entrypoint": {}
@@ -2924,6 +4113,7 @@
         "bug_commit": "24e305ad578c0418d7ce3a8197e16efde2abe041",
         "repository": "debezium/debezium",
         "branch": "debezium-debezium-324040188-324047191",
+        "failing_module": "debezium-connector-mysql",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2938,13 +4128,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 477,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.debezium.connector.mysql.MySqlDdlParserTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 477,
+        "localization": [
+            {
+                "source_file": "debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlDdlParser.java",
+                "line_numbers": [
+                    1228
+                ],
+                "score": 1,
+                "function": "io.debezium.connector.mysql$MySqlDdlParser#parseAlterSpecification(io.debezium.text.TokenStream.Marker,io.debezium.relational.TableEditor,java.util.function.Consumer<io.debezium.relational.TableId>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/debezium-debezium/debezium-debezium-324040188-324047191/src",
             "entrypoint": {}
@@ -2958,6 +4159,7 @@
         "bug_commit": "a629591f1ff60ec0a70fa00b26c6acbac0a6387a",
         "repository": "debezium/debezium",
         "branch": "debezium-debezium-325431120-326310450",
+        "failing_module": "debezium-connector-mysql",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -2972,13 +4174,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 478,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.debezium.connector.mysql.MySqlDdlParserTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 478,
+        "localization": [
+            {
+                "source_file": "debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlDdlParser.java",
+                "line_numbers": [
+                    1300
+                ],
+                "score": 1,
+                "function": "io.debezium.connector.mysql$MySqlDdlParser#parseAlterSpecification(io.debezium.text.TokenStream.Marker,io.debezium.relational.TableEditor,java.util.function.Consumer<io.debezium.relational.TableId>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/debezium-debezium/debezium-debezium-325431120-326310450/src",
             "entrypoint": {}
@@ -2992,6 +4205,7 @@
         "bug_commit": "b1ae5afd69858b3a5a9f4810e11d674e6b58da19",
         "repository": "debezium/debezium",
         "branch": "debezium-debezium-356786658-357274631",
+        "failing_module": "debezium-connector-postgres",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3006,6 +4220,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 4,
+        "count_pos": 496,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest",
@@ -3013,9 +4230,20 @@
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest",
             "io.debezium.connector.postgresql.connection.wal2json.ISODateTimeFormatTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 4,
-        "count_pos": 496,
+        "localization": [
+            {
+                "source_file": "debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/DateTimeFormat.java",
+                "line_numbers": [
+                    49,
+                    56,
+                    63,
+                    66
+                ],
+                "score": 1,
+                "function": "io.debezium.connector.postgresql.connection.wal2json$DateTimeFormat#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/debezium-debezium/debezium-debezium-356786658-357274631/src",
             "entrypoint": {}
@@ -3029,6 +4257,7 @@
         "bug_commit": "054f3e1a2fab574bc70ccee8e7e67cfe21658c5f",
         "repository": "EnMasseProject/enmasse",
         "branch": "EnMasseProject-enmasse-344863667-344945686",
+        "failing_module": "address-model-lib",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3043,13 +4272,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 17,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.enmasse.address.model.v1.address.AddressTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 17,
+        "localization": [
+            {
+                "source_file": "address-model-lib/src/main/java/io/enmasse/address/model/Status.java",
+                "line_numbers": [
+                    24
+                ],
+                "score": 1,
+                "function": "io.enmasse.address.model$Status#Status(io.enmasse.address.model.Status)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/EnMasseProject-enmasse/EnMasseProject-enmasse-344863667-344945686/src",
             "entrypoint": {}
@@ -3063,6 +4303,7 @@
         "bug_commit": "3f99a77cf84ce80b55fe67c3461e0ccf1f198aab",
         "repository": "EnMasseProject/enmasse",
         "branch": "EnMasseProject-enmasse-357424637-357457887",
+        "failing_module": "address-model-lib",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3077,14 +4318,43 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 18,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.enmasse.address.model.v1.address.SerializationTest",
             "io.enmasse.address.model.v1.address.SerializationTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 18,
+        "localization": [
+            {
+                "source_file": "address-controller/src/main/java/io/enmasse/controller/api/DefaultExceptionMapper.java",
+                "line_numbers": [
+                    32
+                ],
+                "score": 1,
+                "function": "io.enmasse.controller.api$DefaultExceptionMapper#toResponse(Exception)"
+            },
+            {
+                "source_file": "address-model-lib/src/main/java/io/enmasse/address/model/v1/AddressSpaceV1Deserializer.java",
+                "line_numbers": [
+                    38,
+                    150
+                ],
+                "score": 1,
+                "function": "io.enmasse.address.model.v1$AddressSpaceV1Deserializer#deserialize(com.fasterxml.jackson.databind.node.ObjectNode)"
+            },
+            {
+                "source_file": "address-model-lib/src/main/java/io/enmasse/address/model/v1/AddressV1Deserializer.java",
+                "line_numbers": [
+                    31,
+                    85
+                ],
+                "score": 1,
+                "function": "io.enmasse.address.model.v1$AddressV1Deserializer#deserialize(com.fasterxml.jackson.databind.node.ObjectNode)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/EnMasseProject-enmasse/EnMasseProject-enmasse-357424637-357457887/src",
             "entrypoint": {}
@@ -3098,6 +4368,7 @@
         "bug_commit": "ccaa9f5ed02bcd26af78ffc1d4c1126b180566ad",
         "repository": "linkedin/pinot",
         "branch": "linkedin-pinot-342188288-342446553",
+        "failing_module": "pinot-core",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3112,13 +4383,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 620,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.linkedin.pinot.core.data.manager.realtime.LLRealtimeSegmentDataManagerTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 620,
+        "localization": [
+            {
+                "source_file": "pinot-core/src/main/java/com/linkedin/pinot/core/data/manager/realtime/LLRealtimeSegmentDataManager.java",
+                "line_numbers": [
+                    142
+                ],
+                "score": 1,
+                "function": "com.linkedin.pinot.core.data.manager.realtime$LLRealtimeSegmentDataManager#deleteSegmentFile()"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/linkedin-pinot/linkedin-pinot-342188288-342446553/src",
             "entrypoint": {}
@@ -3132,6 +4414,7 @@
         "bug_commit": "a3a51c0a9c3ec700ac2f3de60c25073fbdbdd41a",
         "repository": "spring-cloud/spring-cloud-gcp",
         "branch": "spring-cloud-spring-cloud-gcp-330973656-330980388",
+        "failing_module": "spring-cloud-gcp-storage",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3146,13 +4429,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 36,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.springframework.cloud.gcp.storage.GoogleStorageTests"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 36,
+        "localization": [
+            {
+                "source_file": "spring-cloud-gcp-storage/src/main/java/org/springframework/cloud/gcp/storage/GoogleStorageResourceObject.java",
+                "line_numbers": [
+                    110
+                ],
+                "score": 1,
+                "function": "org.springframework.cloud.gcp.storage$GoogleStorageResourceObject#getBlobId()"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/spring-cloud/spring-cloud-spring-cloud-gcp-330973656-330980388/src",
             "entrypoint": {}
@@ -3166,6 +4460,7 @@
         "bug_commit": "eda9b5608332afc63bcc131f4d36e70bf4de79c0",
         "repository": "spring-cloud/spring-cloud-gcp",
         "branch": "spring-cloud-spring-cloud-gcp-353059531-353471273",
+        "failing_module": "spring-cloud-gcp-data-spanner",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3180,13 +4475,27 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 158,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.springframework.cloud.gcp.data.spanner.core.SpannerTemplateTests"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 158,
+        "localization": [
+            {
+                "source_file": "spring-cloud-gcp-data-spanner/src/main/java/org/springframework/cloud/gcp/data/spanner/core/SpannerTemplate.java",
+                "line_numbers": [
+                    202,
+                    203,
+                    204,
+                    205
+                ],
+                "score": 1,
+                "function": "org.springframework.cloud.gcp.data.spanner.core$SpannerTemplate#count(Class)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/spring-cloud/spring-cloud-spring-cloud-gcp-353059531-353471273/src",
             "entrypoint": {}
@@ -3200,6 +4509,7 @@
         "bug_commit": "cfb2118729b90c03d884f2902956ae000f06d926",
         "repository": "SzFMV2018-Tavasz/AutomatedCar",
         "branch": "SzFMV2018-Tavasz-AutomatedCar-367688128-367699437",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3214,6 +4524,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 5,
+        "count_pos": 85,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "hu.oe.nik.szfmv.automatedcar.sensors.UltrasonicSensorTest",
@@ -3222,9 +4535,27 @@
             "hu.oe.nik.szfmv.detector.DetectorTest",
             "hu.oe.nik.szfmv.automatedcar.sensors.UltrasonicSensorTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 5,
-        "count_pos": 85,
+        "localization": [
+            {
+                "source_file": "src/main/java/hu/oe/nik/szfmv/Main.java",
+                "line_numbers": [
+                    36,
+                    38
+                ],
+                "score": 1,
+                "function": "hu.oe.nik.szfmv$Main#main(String[])"
+            },
+            {
+                "source_file": "src/main/java/hu/oe/nik/szfmv/environment/World.java",
+                "line_numbers": [
+                    17,
+                    29
+                ],
+                "score": 1,
+                "function": "hu.oe.nik.szfmv.environment$World#World(int,int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/SzFMV2018-Tavasz/SzFMV2018-Tavasz-AutomatedCar-367688128-367699437/src",
             "entrypoint": {}
@@ -3238,6 +4569,7 @@
         "bug_commit": "5b563db59b490545981fc8426a60315ade676df1",
         "repository": "thelastpickle/cassandra-reaper",
         "branch": "thelastpickle-cassandra-reaper-324455111-327555133",
+        "failing_module": "src/server",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3252,13 +4584,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 84,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.NodesStatusTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 84,
+        "localization": [
+            {
+                "source_file": "src/server/src/main/java/io/cassandrareaper/resources/view/NodesStatus.java",
+                "line_numbers": [
+                    88,
+                    91,
+                    92
+                ],
+                "score": 1,
+                "function": "io.cassandrareaper.resources.view$NodeStatus#parseEndpointStatesString(String,String,java.util.Map<String, String>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/thelastpickle-cassandra/thelastpickle-cassandra-reaper-324455111-327555133/src",
             "entrypoint": {}
@@ -3272,6 +4617,7 @@
         "bug_commit": "53b8f9c03ce3e8e1905aeb658bde238925195891",
         "repository": "thelastpickle/cassandra-reaper",
         "branch": "thelastpickle-cassandra-reaper-364710673-365484062",
+        "failing_module": "src/server",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3286,6 +4632,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 6,
+        "count_pos": 104,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.NodesStatusTest",
@@ -3295,9 +4644,19 @@
             "io.cassandrareaper.resources.view.NodesStatusTest",
             "io.cassandrareaper.resources.view.NodesStatusTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 6,
-        "count_pos": 104,
+        "localization": [
+            {
+                "source_file": "src/server/src/main/java/io/cassandrareaper/resources/view/NodesStatus.java",
+                "line_numbers": [
+                    43,
+                    44,
+                    184
+                ],
+                "score": 1,
+                "function": "io.cassandrareaper.resources.view$NodeStatus#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/thelastpickle-cassandra/thelastpickle-cassandra-reaper-364710673-365484062/src",
             "entrypoint": {}
@@ -3311,6 +4670,7 @@
         "bug_commit": "6a59feda5c2fd4ea6f05a41a8437c3749e29fd21",
         "repository": "thelastpickle/cassandra-reaper",
         "branch": "thelastpickle-cassandra-reaper-365484062-365554427",
+        "failing_module": "src/server",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3325,14 +4685,30 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 112,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.cassandrareaper.resources.view.RepairRunStatusTest",
             "io.cassandrareaper.resources.view.RepairRunStatusTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 112,
+        "localization": [
+            {
+                "source_file": "src/server/src/main/java/io/cassandrareaper/resources/view/RepairRunStatus.java",
+                "line_numbers": [
+                    69,
+                    148,
+                    153,
+                    156,
+                    157,
+                    160
+                ],
+                "score": 1,
+                "function": "io.cassandrareaper.resources.view$RepairRunStatus#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/thelastpickle-cassandra/thelastpickle-cassandra-reaper-365484062-365554427/src",
             "entrypoint": {}
@@ -3346,6 +4722,7 @@
         "bug_commit": "065482ffcb1a1a35a5a2a5e0e54aafc565e1be9a",
         "repository": "albfernandez/GDS-PMD-Security-Rules",
         "branch": "albfernandez-GDS-PMD-Security-Rules-451155169-455669767",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3360,13 +4737,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 57,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.gdssecurity.pmd.SanitizersTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 57,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/gdssecurity/pmd/rules/dfa/DfaSecurityRule.java",
+                "line_numbers": [
+                    547
+                ],
+                "score": 1,
+                "function": "com.gdssecurity.pmd.rules.dfa$DfaSecurityRule#isAnyArgumentTainted(net.sourceforge.pmd.lang.ast.Node)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/albfernandez-GDS/albfernandez-GDS-PMD-Security-Rules-451155169-455669767/src",
             "entrypoint": {}
@@ -3380,6 +4768,7 @@
         "bug_commit": "ee9dcc61cdaab8ce9b9d50dddea06a31bd363529",
         "repository": "apereo/java-cas-client",
         "branch": "apereo-java-cas-client-408206584-439486928",
+        "failing_module": "cas-client-core",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3394,13 +4783,30 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 153,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.jasig.cas.client.util.CommonUtilsTests"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 153,
+        "localization": [
+            {
+                "source_file": "cas-client-core/src/main/java/org/jasig/cas/client/util/CommonUtils.java",
+                "line_numbers": [
+                    329,
+                    331,
+                    332,
+                    333,
+                    334,
+                    340,
+                    344
+                ],
+                "score": 1,
+                "function": "org.jasig.cas.client.util$CommonUtils#requestIsOnStandardPort(javax.servlet.http.HttpServletRequest)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/apereo-java/apereo-java-cas-client-408206584-439486928/src",
             "entrypoint": {}
@@ -3414,6 +4820,7 @@
         "bug_commit": "aa7934a9cd1fb8c30d3c911e4ad8661ae5e3f2f5",
         "repository": "aws/aws-encryption-sdk-java",
         "branch": "aws-aws-encryption-sdk-java-441438164-441901187",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3428,13 +4835,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 5725,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.amazonaws.encryptionsdk.model.DecryptionMaterialsRequestTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 5725,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/amazonaws/encryptionsdk/model/DecryptionMaterialsRequest.java",
+                "line_numbers": [
+                    57
+                ],
+                "score": 1,
+                "function": "com.amazonaws.encryptionsdk.model$DecryptionMaterialsRequest#Builder(DecryptionMaterialsRequest)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/aws-aws/aws-aws-encryption-sdk-java-441438164-441901187/src",
             "entrypoint": {}
@@ -3448,6 +4866,7 @@
         "bug_commit": "239919c33deb814aa6e3d9747059410133200e07",
         "repository": "brettwooldridge/HikariCP",
         "branch": "brettwooldridge-HikariCP-446097106-446106182",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3462,13 +4881,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 144,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.zaxxer.hikari.pool.TestConnections"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 144,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/zaxxer/hikari/pool/PoolBase.java",
+                "line_numbers": [
+                    523
+                ],
+                "score": 1,
+                "function": "com.zaxxer.hikari.pool$PoolBase#getAndSetNetworkTimeout(java.sql.Connection,long)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/brettwooldridge-HikariCP/brettwooldridge-HikariCP-446097106-446106182/src",
             "entrypoint": {}
@@ -3482,6 +4912,7 @@
         "bug_commit": "6307200cbe000f4e8860a65b2b2c64de53a21750",
         "repository": "classgraph/classgraph",
         "branch": "classgraph-classgraph-448207270-449613955",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3496,13 +4927,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 115,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.github.classgraph.issues.issue277.Issue227Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 115,
+        "localization": [
+            {
+                "source_file": "src/main/java/io/github/classgraph/ClassGraph.java",
+                "line_numbers": [
+                    865
+                ],
+                "score": 1,
+                "function": "io.github.classgraph$ClassGraph#blacklistLibOrExtJars(String...)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/classgraph-classgraph/classgraph-classgraph-448207270-449613955/src",
             "entrypoint": {}
@@ -3516,6 +4958,7 @@
         "bug_commit": "fc182de4dd4e2e27263ddc0058376418bea1a85c",
         "repository": "cpesch/RouteConverter",
         "branch": "cpesch-RouteConverter-432166807-432169636",
+        "failing_module": "navigation-formats",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3530,6 +4973,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 15,
+        "count_pos": 417,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "slash.navigation.gpx.Gpx11ExtensionsTest",
@@ -3548,9 +4994,20 @@
             "slash.navigation.gpx.Gpx11ExtensionsTest",
             "slash.navigation.gpx.Gpx11ExtensionsTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 15,
-        "count_pos": 417,
+        "localization": [
+            {
+                "source_file": "common/src/main/java/slash/common/helpers/JAXBHelper.java",
+                "line_numbers": [
+                    74,
+                    76,
+                    77,
+                    80
+                ],
+                "score": 1,
+                "function": "slash.common.helpers$JAXBHelper#newMarshaller(javax.xml.bind.JAXBContext)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/cpesch-RouteConverter/cpesch-RouteConverter-432166807-432169636/src",
             "entrypoint": {}
@@ -3564,6 +5021,7 @@
         "bug_commit": "4a9f4c3da9d75656cecde0c76b12263b48f1d611",
         "repository": "CSU-CS414-WareWolves/cs414-f18-001-WareWolves",
         "branch": "CSU-CS414-WareWolves-cs414-f18-001-WareWolves-452444119-454548119",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3578,6 +5036,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 10,
+        "count_pos": 192,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "client.presenter.controller.util.ViewMessageFactoryTest",
@@ -3591,9 +5052,49 @@
             "client.presenter.controller.util.ViewMessageFactoryTest",
             "client.presenter.controller.util.ViewMessageFactoryTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 10,
-        "count_pos": 192,
+        "localization": [
+            {
+                "source_file": "src/main/java/client/presenter/controller/messages/LoginResponseMessage.java",
+                "line_numbers": [
+                    27
+                ],
+                "score": 1,
+                "function": "client.presenter.controller.messages$LoginResponseMessage#"
+            },
+            {
+                "source_file": "src/main/java/client/presenter/controller/messages/MenuMessageResponse.java",
+                "line_numbers": [
+                    28
+                ],
+                "score": 1,
+                "function": "client.presenter.controller.messages$MenuMessageResponse#"
+            },
+            {
+                "source_file": "src/main/java/client/presenter/controller/messages/RegisterResponseMessage.java",
+                "line_numbers": [
+                    27
+                ],
+                "score": 1,
+                "function": "client.presenter.controller.messages$RegisterResponseMessage#"
+            },
+            {
+                "source_file": "src/main/java/client/presenter/controller/messages/UnregisterResponseMessage.java",
+                "line_numbers": [
+                    27
+                ],
+                "score": 1,
+                "function": "client.presenter.controller.messages$UnregisterResponseMessage#"
+            },
+            {
+                "source_file": "src/main/java/client/presenter/controller/messages/ViewValidMovesResponse.java",
+                "line_numbers": [
+                    20
+                ],
+                "score": 1,
+                "function": "client.presenter.controller.messages$ViewValidMovesResponse#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/CSU-CS414/CSU-CS414-WareWolves-cs414-f18-001-WareWolves-452444119-454548119/src",
             "entrypoint": {}
@@ -3607,6 +5108,7 @@
         "bug_commit": "953154b15baf0ff4fd15d17ddcf6c9b40d943ee2",
         "repository": "DmitriiSerikov/money-transfer-service",
         "branch": "DmitriiSerikov-money-transfer-service-446104441-446106577",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3621,14 +5123,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 104,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.github.example.holder.impl.LockHolderSpec",
             "com.github.example.holder.impl.LockHolderSpec"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 104,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/github/example/holder/impl/LockHolderImpl.java",
+                "line_numbers": [
+                    47,
+                    60
+                ],
+                "score": 1,
+                "function": "com.github.example.holder.impl$LockHolderImpl#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/DmitriiSerikov-money/DmitriiSerikov-money-transfer-service-446104441-446106577/src",
             "entrypoint": {}
@@ -3642,6 +5156,7 @@
         "bug_commit": "7fc8d59a999343ad900b91135cd2e6adf1dcfea2",
         "repository": "FasterXML/jackson-dataformats-binary",
         "branch": "FasterXML-jackson-dataformats-binary-461131167-461139756",
+        "failing_module": "cbor",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3656,14 +5171,33 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 99,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.fasterxml.jackson.dataformat.cbor.filter.StreamingDecoratorsTest",
             "com.fasterxml.jackson.dataformat.cbor.filter.StreamingDecoratorsTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 99,
+        "localization": [
+            {
+                "source_file": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORFactory.java",
+                "line_numbers": [
+                    277,
+                    282,
+                    287,
+                    292,
+                    297,
+                    315,
+                    316,
+                    328,
+                    329
+                ],
+                "score": 1,
+                "function": "com.fasterxml.jackson.dataformat.cbor$CBORFactory#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/FasterXML-jackson/FasterXML-jackson-dataformats-binary-461131167-461139756/src",
             "entrypoint": {}
@@ -3677,6 +5211,7 @@
         "bug_commit": "85b06cda14180a3f842f15dfa4e5e4138a4cff11",
         "repository": "jenkinsci/ansicolor-plugin",
         "branch": "jenkinsci-ansicolor-plugin-440438437-449394834",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3691,13 +5226,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 52,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "hudson.plugins.ansicolor.AnsiColorBuildWrapperTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 52,
+        "localization": [
+            {
+                "source_file": "src/main/java/hudson/plugins/ansicolor/AnsiColorConsoleLogFilter.java",
+                "line_numbers": [
+                    27,
+                    43
+                ],
+                "score": 1,
+                "function": "hudson.plugins.ansicolor$AnsiColorConsoleLogFilter#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/jenkinsci-ansicolor/jenkinsci-ansicolor-plugin-440438437-449394834/src",
             "entrypoint": {}
@@ -3711,6 +5258,7 @@
         "bug_commit": "8f3cb1acf8221df2fd16a807dae6be1daa33298a",
         "repository": "jgrapht/jgrapht",
         "branch": "jgrapht-jgrapht-443997242-444189432",
+        "failing_module": "jgrapht-core",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3725,13 +5273,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 2972,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.jgrapht.generate.WattsStrogatzGraphGeneratorTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 2972,
+        "localization": [
+            {
+                "source_file": "jgrapht-core/src/main/java/org/jgrapht/generate/WattsStrogatzGraphGenerator.java",
+                "line_numbers": [
+                    169,
+                    179,
+                    180
+                ],
+                "score": 1,
+                "function": "org.jgrapht.generate$WattsStrogatzGraphGenerator#generateGraph(org.jgrapht.Graph<V, E>,Map<String, V>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/jgrapht-jgrapht/jgrapht-jgrapht-443997242-444189432/src",
             "entrypoint": {}
@@ -3745,6 +5306,7 @@
         "bug_commit": "acdcb5ce99c30d236feba40801bfb1f3a21768df",
         "repository": "lettuce-io/lettuce-core",
         "branch": "lettuce-io-lettuce-core-438538449-438808943",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3759,15 +5321,41 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 2013,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.lettuce.core.dynamic.output.OutputRegistryCommandOutputFactoryResolverUnitTests",
             "io.lettuce.core.dynamic.DeclaredCommandMethodUnitTests",
             "io.lettuce.core.dynamic.ReactiveCommandSegmentCommandFactoryUnitTests"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 2013,
+        "localization": [
+            {
+                "source_file": "src/main/java/io/lettuce/core/dynamic/DeclaredCommandMethod.java",
+                "line_numbers": [
+                    82,
+                    83
+                ],
+                "score": 1,
+                "function": "io.lettuce.core.dynamic$DeclaredCommandMethod#DeclaredCommandMethod(java.lang.reflect.Method,io.lettuce.core.dynamic.parameter.ExecutionSpecificParameters)"
+            },
+            {
+                "source_file": "src/main/java/io/lettuce/core/dynamic/ReactiveCommandSegmentCommandFactory.java",
+                "line_numbers": [
+                    34,
+                    52,
+                    54,
+                    55,
+                    56,
+                    59,
+                    65
+                ],
+                "score": 1,
+                "function": "io.lettuce.core.dynamic$ReactiveCommandSegmentCommandFactory#resolveCommandOutputFactory(io.lettuce.core.dynamic.output.OutputSelector)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/lettuce-io/lettuce-io-lettuce-core-438538449-438808943/src",
             "entrypoint": {}
@@ -3781,6 +5369,7 @@
         "bug_commit": "1b5501f7bd80fd4435686d039116e8434b29084b",
         "repository": "milaboratory/milib",
         "branch": "milaboratory-milib-444855015-444858326",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3795,13 +5384,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 425,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.milaboratory.core.alignment.kaligner2.KAligner2Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 425,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/milaboratory/core/alignment/batch/BatchAlignerWithBaseParameters.java",
+                "line_numbers": [
+                    33
+                ],
+                "score": 1,
+                "function": "com.milaboratory.core.alignment.batch$BatchAlignerWithBaseParameters#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/milaboratory-milib/milaboratory-milib-444855015-444858326/src",
             "entrypoint": {}
@@ -3815,6 +5415,7 @@
         "bug_commit": "1727283572145bd1b834f4f8bfd70ea5602eb168",
         "repository": "OpenFeign/feign",
         "branch": "OpenFeign-feign-454179734-454278346",
+        "failing_module": "core",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3829,14 +5430,32 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 286,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "feign.querymap.FieldQueryMapEncoderTest",
             "feign.querymap.FieldQueryMapEncoderTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 286,
+        "localization": [
+            {
+                "source_file": "core/src/main/java/feign/querymap/FieldQueryMapEncoder.java",
+                "line_numbers": [
+                    60,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                ],
+                "score": 1,
+                "function": "feign.querymap$FieldQueryMapEncoder#parseObjectType(Class<?>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/OpenFeign-feign/OpenFeign-feign-454179734-454278346/src",
             "entrypoint": {}
@@ -3850,6 +5469,7 @@
         "bug_commit": "fe7d4eb6c8ad124f33d96b4aec9b92e7fb01379f",
         "repository": "openmrs/openmrs-module-htmlformentry",
         "branch": "openmrs-openmrs-module-htmlformentry-452596787-452623087",
+        "failing_module": "api-tests",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3864,14 +5484,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 533,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.openmrs.module.htmlformentry.RegressionTest",
             "org.openmrs.module.htmlformentry.RegressionTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 533,
+        "localization": [
+            {
+                "source_file": "api/src/main/java/org/openmrs/module/htmlformentry/element/EncounterDetailSubmissionElement.java",
+                "line_numbers": [
+                    778,
+                    779,
+                    780,
+                    781,
+                    783
+                ],
+                "score": 1,
+                "function": "org.openmrs.module.htmlformentry.element$EncounterDetailSubmissionElement#handleSubmission(org.openmrs.module.htmlformentry.FormEntrySession,javax.servlet.http.HttpServletRequest)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/openmrs-openmrs/openmrs-openmrs-module-htmlformentry-452596787-452623087/src",
             "entrypoint": {}
@@ -3885,6 +5520,7 @@
         "bug_commit": "43f931f784dcf6734eff4cf5a8c79545e5db44c2",
         "repository": "openmrs/openmrs-module-webservices.rest",
         "branch": "openmrs-openmrs-module-webservices.rest-455565885-458312291",
+        "failing_module": "omod-1.9",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3899,13 +5535,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 1167,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.openmrs.module.webservices.rest.web.v1_0.controller.openmrs1_9.ObsController1_9Test"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 1167,
+        "localization": [
+            {
+                "source_file": "omod-1.9/src/main/java/org/openmrs/module/webservices/rest/web/v1_0/resource/openmrs1_9/ObsResource1_9.java",
+                "line_numbers": [
+                    34
+                ],
+                "score": 1,
+                "function": "org.openmrs.module.webservices.rest.web.v1_0.resource.openmrs1_9$ObsResource1_9#setConcept(org.openmrs.Obs,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/openmrs-openmrs/openmrs-openmrs-module-webservices.rest-455565885-458312291/src",
             "entrypoint": {}
@@ -3919,6 +5566,7 @@
         "bug_commit": "c8426e6f359f5fb7ed928e151c97029d752955f8",
         "repository": "opentracing-contrib/java-p6spy",
         "branch": "opentracing-contrib-java-p6spy-390188323-431527545",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3933,13 +5581,29 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 18,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "io.opentracing.contrib.p6spy.JdbcTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 18,
+        "localization": [
+            {
+                "source_file": "src/main/java/io/opentracing/contrib/p6spy/TracingP6SpyListener.java",
+                "line_numbers": [
+                    125,
+                    126,
+                    127,
+                    141,
+                    142,
+                    143
+                ],
+                "score": 1,
+                "function": "io.opentracing.contrib.p6spy$TracingP6SpyListener#"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/opentracing-contrib/opentracing-contrib-java-p6spy-390188323-431527545/src",
             "entrypoint": {}
@@ -3953,6 +5617,7 @@
         "bug_commit": "334b11fcbe2aa44f9c29db2043cddf60930541c0",
         "repository": "paritytrading/foundation",
         "branch": "paritytrading-foundation-364820616-448899327",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -3967,15 +5632,26 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 3,
+        "count_pos": 77,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.paritytrading.foundation.ByteArraysTest",
             "com.paritytrading.foundation.ByteArraysTest",
             "com.paritytrading.foundation.ByteArraysTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 3,
-        "count_pos": 77,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/paritytrading/foundation/ByteArrays.java",
+                "line_numbers": [
+                    93
+                ],
+                "score": 1,
+                "function": "com.paritytrading.foundation$ByteArrays#pack(byte[],byte,int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/paritytrading-foundation/paritytrading-foundation-364820616-448899327/src",
             "entrypoint": {}
@@ -3989,6 +5665,7 @@
         "bug_commit": "1019f4ae787bd616e432f364917e83ab2fe35587",
         "repository": "rafonsecad/cash-count",
         "branch": "rafonsecad-cash-count-435955189-435958219",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4003,13 +5680,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 14,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.cash.count.service.impl.TransferServiceTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 14,
+        "localization": [
+            {
+                "source_file": "src/main/java/org/cash/count/service/impl/TransferService.java",
+                "line_numbers": [
+                    43
+                ],
+                "score": 1,
+                "function": "org.cash.count.service.impl$TransferService#transfer(int,int,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219/src",
             "entrypoint": {}
@@ -4023,6 +5711,7 @@
         "bug_commit": "13288f1282bdb1237c98aec02b89edcee813915b",
         "repository": "rafonsecad/cash-count",
         "branch": "rafonsecad-cash-count-435958219-435967865",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4037,13 +5726,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 16,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.cash.count.service.impl.AccountManagerTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 16,
+        "localization": [
+            {
+                "source_file": "src/main/java/org/cash/count/service/impl/AccountManager.java",
+                "line_numbers": [
+                    108
+                ],
+                "score": 1,
+                "function": "org.cash.count.service.impl$AccountManager#disable(int)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/rafonsecad-cash/rafonsecad-cash-count-435958219-435967865/src",
             "entrypoint": {}
@@ -4057,6 +5757,7 @@
         "bug_commit": "ca101d8215af7403bf3d52bcd4650a3e09be7d74",
         "repository": "rkonovalov/jsonignore",
         "branch": "rkonovalov-jsonignore-442009574-442015798",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4071,14 +5772,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 2,
+        "count_pos": 7,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.json.ignore.JsonIgnoreFieldsTest",
             "com.json.ignore.JsonIgnoreFieldsTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 2,
-        "count_pos": 7,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/json/ignore/JsonIgnoreFields.java",
+                "line_numbers": [
+                    133
+                ],
+                "score": 1,
+                "function": "com.json.ignore$JsonIgnoreFields#clearField(java.lang.reflect.Field,Object)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/rkonovalov-jsonignore/rkonovalov-jsonignore-442009574-442015798/src",
             "entrypoint": {}
@@ -4092,6 +5804,7 @@
         "bug_commit": "27d59c0db669b4e9b19c127028c7bcfd603f3320",
         "repository": "societe-generale/ci-droid-tasks-consumer",
         "branch": "societe-generale-ci-droid-tasks-consumer-420388707-430936160",
+        "failing_module": "ci-droid-tasks-consumer-services",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4106,6 +5819,9 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 4,
+        "count_pos": 41,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest",
@@ -4113,9 +5829,17 @@
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest",
             "com.societegenerale.cidroid.tasks.consumer.services.ActionToPerformServiceTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 4,
-        "count_pos": 41,
+        "localization": [
+            {
+                "source_file": "ci-droid-tasks-consumer-services/src/main/java/com/societegenerale/cidroid/tasks/consumer/services/ActionToPerformService.java",
+                "line_numbers": [
+                    206
+                ],
+                "score": 1,
+                "function": "com.societegenerale.cidroid.tasks.consumer.services$ActionToPerformService#updateRemoteResource(String,com.societegenerale.cidroid.api.ResourceToUpdate,com.societegenerale.cidroid.tasks.consumer.services.model.BulkActionToPerform,String)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/societe-generale/societe-generale-ci-droid-tasks-consumer-420388707-430936160/src",
             "entrypoint": {}
@@ -4129,6 +5853,7 @@
         "bug_commit": "21562864e471b5a1db1c85ef08ed082168894e1b",
         "repository": "SonarOpenCommunity/sonar-cxx",
         "branch": "SonarOpenCommunity-sonar-cxx-437974912-438070185",
+        "failing_module": "cxx-checks",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4143,13 +5868,25 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 615,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "org.sonar.cxx.checks.naming.MethodNameCheckTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 615,
+        "localization": [
+            {
+                "source_file": "cxx-checks/src/main/java/org/sonar/cxx/checks/naming/MethodNameCheck.java",
+                "line_numbers": [
+                    121,
+                    123
+                ],
+                "score": 1,
+                "function": "org.sonar.cxx.checks.naming$MethodNameCheck#getOutsideMemberDeclaration(com.sonar.sslr.api.AstNode)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/SonarOpenCommunity-sonar/SonarOpenCommunity-sonar-cxx-437974912-438070185/src",
             "entrypoint": {}
@@ -4163,6 +5900,7 @@
         "bug_commit": "527c397d2987e44c4422412b8ab3ae5bca07db06",
         "repository": "square/javapoet",
         "branch": "square-javapoet-418963407-436938143",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4177,13 +5915,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 333,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.squareup.javapoet.ParameterSpecTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 333,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/squareup/javapoet/ParameterSpec.java",
+                "line_numbers": [
+                    163
+                ],
+                "score": 1,
+                "function": "com.squareup.javapoet$ParameterSpec#addModifiers(Iterable<javax.lang.model.element.Modifier>)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/square-javapoet/square-javapoet-418963407-436938143/src",
             "entrypoint": {}
@@ -4197,6 +5946,7 @@
         "bug_commit": "06af71333bc7be2c190fd6cf836cae271dee2e0f",
         "repository": "thelinmichael/spotify-web-api-java",
         "branch": "thelinmichael-spotify-web-api-java-441742384-442933713",
+        "failing_module": "",
         "source_file": "",
         "source_directory": "src/main/java",
         "class_directory": "target/classes",
@@ -4211,13 +5961,24 @@
         "java_version": 8,
         "line_numbers": [],
         "dependencies": [],
+        "test_timeout": 5,
+        "count_neg": 1,
+        "count_pos": 228,
         "passing_test_identifiers": [],
         "failing_test_identifiers": [
             "com.wrapper.spotify.requests.data.player.StartResumeUsersPlaybackRequestTest"
         ],
-        "test_timeout": 5,
-        "count_neg": 1,
-        "count_pos": 228,
+        "localization": [
+            {
+                "source_file": "src/main/java/com/wrapper/spotify/requests/data/player/StartResumeUsersPlaybackRequest.java",
+                "line_numbers": [
+                    130
+                ],
+                "score": 1,
+                "function": "com.wrapper.spotify.requests.data.player$StartResumeUsersPlaybackRequest#position_ms(Integer)"
+            }
+        ],
+        "build_system": "maven",
         "src": {
             "root_abspath": "/experiment/bears/thelinmichael-spotify/thelinmichael-spotify-web-api-java-441742384-442933713/src",
             "entrypoint": {}

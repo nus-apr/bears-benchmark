@@ -1,0 +1,11 @@
+FROM rshariffdeen/arja
+ADD . /setup/bears/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219/
+RUN  bash -c 'groupadd -g 1011 cerberus' 
+RUN  bash -c "cut -d: -f1 /etc/passwd | xargs -i usermod -g cerberus {} "
+COPY --from=bears-rafonsecad-cash-rafonsecad-cash-count-435955189-435958219  /experiment /experiment
+COPY --from=bears-rafonsecad-cash-rafonsecad-cash-count-435955189-435958219  /logs /logs
+COPY --from=bears-rafonsecad-cash-rafonsecad-cash-count-435955189-435958219  /root/ /root/
+RUN mvn clean compile test -Drat.skip=true -f /experiment/bears/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219//src/./pom.xml; return 0
+RUN  bash /setup/bears/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219/deps.sh 
+RUN  bash /setup/bears/rafonsecad-cash/rafonsecad-cash-count-435955189-435958219/install_deps 
+ENTRYPOINT ["/bin/sh"]

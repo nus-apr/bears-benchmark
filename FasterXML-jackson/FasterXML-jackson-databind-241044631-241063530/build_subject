@@ -6,4 +6,8 @@ bug_id=$(echo $script_dir | rev | cut -d "/" -f 1 | rev)
 dir_name=/experiment/$benchmark_name/$project_name/$bug_id
 cd $dir_name/src
 
+
+filename="$dir_name/src/src/main/java/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java"  
+sed -i '52i \\' $filename
+
 python3 /bears-benchmark/scripts/compile_bug.py --bugId src --workspace $dir_name

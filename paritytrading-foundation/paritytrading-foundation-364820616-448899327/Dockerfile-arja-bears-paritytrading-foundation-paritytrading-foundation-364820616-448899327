@@ -1,0 +1,11 @@
+FROM rshariffdeen/arja
+ADD . /setup/bears/paritytrading-foundation/paritytrading-foundation-364820616-448899327/
+RUN  bash -c 'groupadd -g 1011 cerberus' 
+RUN  bash -c "cut -d: -f1 /etc/passwd | xargs -i usermod -g cerberus {} "
+COPY --from=bears-paritytrading-foundation-paritytrading-foundation-364820616-448899327  /experiment /experiment
+COPY --from=bears-paritytrading-foundation-paritytrading-foundation-364820616-448899327  /logs /logs
+COPY --from=bears-paritytrading-foundation-paritytrading-foundation-364820616-448899327  /root/ /root/
+RUN mvn clean compile test -Drat.skip=true -f /experiment/bears/paritytrading-foundation/paritytrading-foundation-364820616-448899327//src/./pom.xml; return 0
+RUN  bash /setup/bears/paritytrading-foundation/paritytrading-foundation-364820616-448899327/deps.sh 
+RUN  bash /setup/bears/paritytrading-foundation/paritytrading-foundation-364820616-448899327/install_deps 
+ENTRYPOINT ["/bin/sh"]

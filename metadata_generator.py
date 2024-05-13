@@ -27,6 +27,15 @@ for project in original_data:
     with urllib.request.urlopen(metadata_link) as f:
         metadata = json.load(f)
         pprint(metadata)
+    
+    # Failing_mod_path format:
+    # /root/workspace/{repo_name}/{buggy_build_id}/{failing-module}
+    failing_module_path = metadata["tests"].get("failingModule", "")
+    repo_name = metadata.get("commits", {}).get("buggyBuild", {}).get("repoName", "")
+    buggy_build_id = metadata["builds"]["buggyBuild"]["id"]
+    failing_mod = failing_module_path.replace("/root/workspace/", "").replace(str(repo_name) + "/", "").replace(str(buggy_build_id), "")
+    if failing_mod.startswith("/"):
+        failing_mod = failing_mod[1:]
 
     result.append(
         {
@@ -36,6 +45,7 @@ for project in original_data:
             "bug_commit": metadata["commits"]["buggyBuild"]["sha"],
             "repository": metadata["commits"]["buggyBuild"]["repoName"],
             "branch": project["bugBranch"],
+            "failing_module": failing_mod,
             "source_file": "",
             "source_directory": "src/main/java",
             "class_directory": "target/classes",

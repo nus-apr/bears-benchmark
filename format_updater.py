@@ -27,5 +27,5 @@ for entry in contents:
     entry["output_dir_abspath"] = "/output"
 
 y = open("meta-data.candidate.json", "w")
-json.dump(contents, y)
+json.dump(contents, y, indent=4)
 y.close()
